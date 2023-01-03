@@ -58,30 +58,3 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
-*.meta
-*.png
-*.asset
-*.playable
-*.anim
-*.prefab
-*.wav
-*.brush
-*.tif
-*.mat
-*.browser
-*.fbx
-*.psd
-*.pdf
-*.shader
-*.cache
-*.bin
-*.txt
-*.pref
-*.json
-*.dll
-*.assets
-*.resS
-*.yaml
-*.config
-*.noisehlsltemplate
-*.hlsl
