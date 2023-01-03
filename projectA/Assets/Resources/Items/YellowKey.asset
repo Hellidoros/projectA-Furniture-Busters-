@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e32ba99639ad448d98fee86d2e47ac3, type: 3}
+  m_Name: YellowKey
+  m_EditorClassIdentifier: 
+  Name: Yellow Key
+  Description: 
+  icon: {fileID: 21300000, guid: ff1cdb51eb5e64a4f870cbd9bf132436, type: 3}
+  Prefab: {fileID: 4182348353326882658, guid: ea933eb425c4b442b9523f6261f97f26, type: 3}
+  AnimationBoolName: YellowKeyEnabled

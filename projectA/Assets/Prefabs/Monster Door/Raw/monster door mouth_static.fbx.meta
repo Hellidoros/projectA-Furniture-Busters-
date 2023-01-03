@@ -1,0 +1,232 @@
+fileFormatVersion: 2
+guid: 5bb97f3ad021d41319f2143070d33c3d
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: "Invalid Avatar Rig Configuration. Missing or invalid transform:\n\tRequired
+      human bone 'RightUpperLeg' not found\n"
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 2
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: monster_door_rig
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: eye
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: eye top 1 IK
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: monster door mouth_static(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: monster_door
+      parentName: monster door mouth_static(Clone)
+      position: {x: 0.76195, y: 1.5343871, z: -0.029493943}
+      rotation: {x: 0.000000043711395, y: 1, z: -0.00000009735359, w: 0.000000043711385}
+      scale: {x: 1, y: 1, z: 1}
+    - name: monster_door_rig
+      parentName: monster door mouth_static(Clone)
+      position: {x: 0.8065543, y: 1.5384879, z: 0.068412185}
+      rotation: {x: -0.7071067, y: -0.000000030908616, z: 0.000000030908623, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: body
+      parentName: monster_door_rig
+      position: {x: 0.0100489855, y: 0, z: 0}
+      rotation: {x: 0.50000006, y: -0.49999997, z: 0.49999994, w: 0.5000001}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jaw top
+      parentName: body
+      position: {x: -0.028499851, y: 0.8459939, z: 0.068416804}
+      rotation: {x: 0.4334018, y: 0.5587154, z: 0.43340215, w: 0.5587151}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1}
+    - name: jaw bot
+      parentName: body
+      position: {x: -0.028499851, y: 0.8459939, z: 0.068416804}
+      rotation: {x: 0.5587149, y: 0.43340257, z: 0.5587153, w: 0.4334019}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000004}
+    - name: eye
+      parentName: body
+      position: {x: -0.028500088, y: 0.8459939, z: 0.068416804}
+      rotation: {x: 0.50000006, y: 0.49999997, z: -0.49999982, w: 0.50000024}
+      scale: {x: 1, y: 1, z: 1}
+    - name: eye mid 2
+      parentName: body
+      position: {x: 0.7240625, y: 1.2489806, z: 0.10169563}
+      rotation: {x: 0.730175, y: -0.02194963, z: 0.02425145, w: 0.68247676}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: eye mid 1
+      parentName: body
+      position: {x: 0.7240625, y: 1.2489806, z: 0.10169563}
+      rotation: {x: 0.68315923, y: 0.025295058, z: -0.023290338, w: 0.7294595}
+      scale: {x: 1, y: 0.9999998, z: 0.99999994}
+    - name: eye top 2
+      parentName: body
+      position: {x: 1.2742851, y: 1.4101381, z: 0.10036731}
+      rotation: {x: 0.6712476, y: -0.033887237, z: 0.033917073, w: 0.73968095}
+      scale: {x: 0.99999994, y: 1.0000002, z: 0.99999994}
+    - name: eye top 1
+      parentName: body
+      position: {x: 1.2742846, y: 1.4101381, z: 0.10036731}
+      rotation: {x: 0.74065524, y: 0.03969715, z: -0.039387096, w: 0.66955405}
+      scale: {x: 0.99999976, y: 1, z: 0.99999964}
+    - name: eye bot 1
+      parentName: body
+      position: {x: -1.1977136, y: 0.47592378, z: 0.10058064}
+      rotation: {x: 0.73030245, y: 0.032477744, z: -0.036674503, w: 0.6813652}
+      scale: {x: 0.9999998, y: 0.9999999, z: 1}
+    - name: eye bot 2
+      parentName: body
+      position: {x: -1.1977136, y: 0.47592378, z: 0.100580655}
+      rotation: {x: 0.70696175, y: -0.032748662, z: 0.03291651, w: 0.70572597}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1.0000001}
+    - name: jaw top IK
+      parentName: body
+      position: {x: -0.028499894, y: 0.96470696, z: 0.53085107}
+      rotation: {x: -0.0034529371, y: 0.7044047, z: 0.0034792945, w: 0.70978165}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jaw bot IK
+      parentName: body
+      position: {x: -0.028499894, y: 0.727281, z: 0.53085107}
+      rotation: {x: 0.7059319, y: -0.0015083142, z: 0.7082765, w: 0.0015133239}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: eye mid 2 IK
+      parentName: body
+      position: {x: 0.70934916, y: 1.2337408, z: 0.32651663}
+      rotation: {x: 0.8910916, y: -0.3084249, z: 0.31459975, w: 0.1088894}
+      scale: {x: 1.0000002, y: 1, z: 0.99999994}
+    - name: eye mid 1 IK
+      parentName: body
+      position: {x: 0.73977035, y: 1.2639921, z: 0.3298388}
+      rotation: {x: 0.13713697, y: 0.54525197, z: -0.30808666, w: 0.76744795}
+      scale: {x: 0.9999999, y: 0.99999994, z: 1}
+    - name: eye top 2 IK
+      parentName: body
+      position: {x: 1.2593226, y: 1.4252388, z: 0.25531477}
+      rotation: {x: 0.20691624, y: -0.39954063, z: 0.41069424, w: 0.7930216}
+      scale: {x: 1, y: 1, z: 1}
+    - name: eye bot 1 IK
+      parentName: body
+      position: {x: -1.1850647, y: 0.46691588, z: 0.22949488}
+      rotation: {x: 0.6760693, y: 0.46631503, z: -0.4696306, w: 0.3239254}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1}
+    - name: eye bot 2 IK
+      parentName: body
+      position: {x: -1.2098598, y: 0.47569373, z: 0.23095274}
+      rotation: {x: 0.33515078, y: -0.4848943, z: 0.4593065, w: 0.66452163}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: eye top 1 IK
+      parentName: body
+      position: {x: 1.2917664, y: 1.394428, z: 0.25531477}
+      rotation: {x: 0.79855436, y: 0.40465838, z: -0.39748278, w: 0.20141988}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

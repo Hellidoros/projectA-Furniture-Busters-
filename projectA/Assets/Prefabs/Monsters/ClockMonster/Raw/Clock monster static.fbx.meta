@@ -1,0 +1,567 @@
+fileFormatVersion: 2
+guid: ec6fc626ae1154f44b84e536442e4807
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Clock monster texture
+    second: {fileID: 2100000, guid: 76c658e416979454c80a8117d2aa9f83, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: clock monster texture color
+    second: {fileID: 2800000, guid: ef80e7d0c39c244669684cf96ed65052, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: Body 1
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: leg bot 3.L
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: leg bot 4.R
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: leg bot 2.L
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: leg bot 3.R
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: leg bot 1.L
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: leg bot 2.R
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Body 2
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Body 4
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Body 5
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: leg top 4.L
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: leg top 4.R
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: leg top 3.L
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: leg top 3.R
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: leg top 2.L
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: leg top 2.R
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: leg top 1.L
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: leg top 1.R
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: claw 3.L
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: claw 3.R
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Clock monster static(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Clock monster form
+      parentName: Clock monster static(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -6.123234e-17, y: 1, z: 6.123234e-17, w: -3.7493994e-33}
+      scale: {x: 1, y: 1, z: 1}
+    - name: clock rig
+      parentName: Clock monster static(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071067, y: -0.000000030908616, z: 0.000000030908623, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Body 1
+      parentName: clock rig
+      position: {x: 0.020378023, y: 0.07510402, z: 0.1446375}
+      rotation: {x: 0.65219575, y: -0.00000009648708, z: -0.00000012459833, w: 0.75805056}
+      scale: {x: 1, y: 1.0000001, z: 0.9999961}
+    - name: Body 2
+      parentName: Body 1
+      position: {x: -1.4210855e-14, y: 0.46908718, z: 0.00000001490112}
+      rotation: {x: 0.07484927, y: 0.000000043585977, z: -0.00000003241897, w: 0.9971949}
+      scale: {x: 1, y: 0.9999995, z: 1.0000001}
+    - name: Body 3
+      parentName: Body 2
+      position: {x: 2.0176406e-14, y: 0.40112916, z: -0.000000035409162}
+      rotation: {x: -0.39193496, y: -0.000000040212562, z: 0.00000016975612, w: 0.9199929}
+      scale: {x: 1, y: 0.99999994, z: 1.0000005}
+    - name: Body 4
+      parentName: Body 3
+      position: {x: 4.973799e-14, y: 0.3651705, z: 0.000000029802282}
+      rotation: {x: 0.17550135, y: 4.1211484e-13, z: -0.000000083685265, w: 0.9844792}
+      scale: {x: 1, y: 1.0000015, z: 0.9999989}
+    - name: Body 5
+      parentName: Body 4
+      position: {x: 7.1054274e-15, y: 0.27015358, z: 0.000000029802282}
+      rotation: {x: -0.10130342, y: 3.6510366e-14, z: 0.00000004830472, w: 0.9948556}
+      scale: {x: 1, y: 1.0000005, z: 1}
+    - name: claw 4.L
+      parentName: Body 5
+      position: {x: -0.117706716, y: 0.23297316, z: 0.17654036}
+      rotation: {x: 0.7250052, y: 0.004439636, z: 0.004673255, w: 0.68871325}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: claw 3.L
+      parentName: claw 4.L
+      position: {x: 0.0000000012299366, y: 0.09899802, z: -0.0000000277767}
+      rotation: {x: 0.62739056, y: -0.0058470564, z: 0.0050715255, w: 0.7786663}
+      scale: {x: 1, y: 1.0000005, z: 0.9999997}
+    - name: claw 2.L
+      parentName: claw 3.L
+      position: {x: 0.000000013933459, y: 0.38070896, z: 0.000000011439293}
+      rotation: {x: 0.9859414, y: 0.000000013010366, z: 0.012711266, w: -0.16660732}
+      scale: {x: 0.9999999, y: 1.0000006, z: 1.000003}
+    - name: claw 1.L
+      parentName: claw 2.L
+      position: {x: 0.000000018626451, y: 0.38316184, z: 0.000000012805685}
+      rotation: {x: 0.99155855, y: -0.000000009319474, z: 0.012783633, w: 0.12902808}
+      scale: {x: 0.9999998, y: 1.0000012, z: 0.9999931}
+    - name: claw 4.R
+      parentName: Body 5
+      position: {x: 0.11770695, y: 0.23297316, z: 0.17654024}
+      rotation: {x: 0.7250052, y: -0.004439325, z: -0.0046735844, w: 0.68871325}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: claw 3.R
+      parentName: claw 4.R
+      position: {x: 0.0000000025962419, y: 0.098998, z: -0.00000003097747}
+      rotation: {x: 0.62739056, y: 0.005846981, z: -0.005071593, w: 0.7786663}
+      scale: {x: 1, y: 1.0000005, z: 0.99999964}
+    - name: claw 2.R
+      parentName: claw 3.R
+      position: {x: 0.000000009036739, y: 0.3807088, z: -0.000000015048153}
+      rotation: {x: 0.9859414, y: -3.478714e-10, z: -0.01271126, w: -0.16660745}
+      scale: {x: 0.99999994, y: 1.0000004, z: 1.000003}
+    - name: claw 1.R
+      parentName: claw 2.R
+      position: {x: 0.000000006519258, y: 0.38316175, z: 0.000000007916242}
+      rotation: {x: 0.99155855, y: 0.000000020198776, z: -0.012783636, w: 0.12902808}
+      scale: {x: 0.9999999, y: 1.0000012, z: 0.999993}
+    - name: mouth
+      parentName: Body 5
+      position: {x: 0.000000019524942, y: 0.5221326, z: -0.18485677}
+      rotation: {x: 0.72502023, y: -0.00000064413683, z: -0.00000082448776, w: 0.68872756}
+      scale: {x: 1, y: 1, z: 1}
+    - name: eye
+      parentName: mouth
+      position: {x: -0.00000024107322, y: 0.4140641, z: -0.120037064}
+      rotation: {x: -0.7596963, y: 0.00000061849255, z: 0.0000008737206, w: 0.65027803}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: leg top 4.L
+      parentName: Body 3
+      position: {x: -0.06286281, y: 0.2278504, z: 0.204257}
+      rotation: {x: 0.27713972, y: -0.27713934, z: 0.6505333, w: 0.65053344}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: leg top 3.L
+      parentName: leg top 4.L
+      position: {x: -0.00000002252285, y: 0.07296463, z: 0.0000000090398995}
+      rotation: {x: 0.0140000135, y: -0.13606074, z: -0.010489009, w: 0.9905461}
+      scale: {x: 1.0000012, y: 0.99999976, z: 0.99999934}
+    - name: leg top 2.L
+      parentName: leg top 3.L
+      position: {x: 0.000000007450581, y: 0.3639902, z: 0.000000037252903}
+      rotation: {x: 0.017463204, y: -0.74319905, z: 0.0010217063, w: -0.66884166}
+      scale: {x: 0.9999971, y: 1.0000027, z: 1.0000011}
+    - name: leg top 1.L
+      parentName: leg top 2.L
+      position: {x: 0.000000037252903, y: 0.4712801, z: 0.000000024214387}
+      rotation: {x: -0.042237822, y: -0.0000018842392, z: 0.9381567, w: 0.3436247}
+      scale: {x: 1.2015369, y: 1.201541, z: 1.2015405}
+    - name: leg top 4.R
+      parentName: Body 3
+      position: {x: 0.06286307, y: 0.22785044, z: 0.20425689}
+      rotation: {x: 0.27713943, y: 0.27713966, z: -0.65053356, w: 0.6505333}
+      scale: {x: 0.99999994, y: 1, z: 0.9999999}
+    - name: leg top 3.R
+      parentName: leg top 4.R
+      position: {x: 0.000000013641206, y: 0.072964385, z: 0.000000009065639}
+      rotation: {x: 0.0140001625, y: 0.13606054, z: 0.010489114, w: 0.9905461}
+      scale: {x: 1.0000011, y: 0.99999964, z: 0.9999991}
+    - name: leg top 2.R
+      parentName: leg top 3.R
+      position: {x: -0.00000002142042, y: 0.36399025, z: 0.000000026077032}
+      rotation: {x: -0.017463084, y: -0.74319947, z: 0.0010219549, w: 0.6688412}
+      scale: {x: 0.9999971, y: 1.0000027, z: 1.000001}
+    - name: leg top 1.R
+      parentName: leg top 2.R
+      position: {x: -0.000000048428774, y: 0.47128025, z: -0.0000000055879354}
+      rotation: {x: 0.04223782, y: -0.0000019164124, z: 0.93815666, w: -0.34362492}
+      scale: {x: 1.2015358, y: 1.2015412, z: 1.2015406}
+    - name: leg mid 4.L
+      parentName: Body 2
+      position: {x: -0.06286285, y: 0.20082872, z: 0.14512984}
+      rotation: {x: 0.00000058587017, y: -0.00000006880806, z: 0.7071068, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: leg mid 3.L
+      parentName: leg mid 4.L
+      position: {x: 0.000000117829494, y: 0.0407561, z: 0.000000022903809}
+      rotation: {x: 0.5051369, y: 0.00089802506, z: 0.00078641804, w: 0.8630385}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: leg mid 2.L
+      parentName: leg mid 3.L
+      position: {x: 0.00000022134918, y: 0.20130086, z: -0.00000002142042}
+      rotation: {x: 0.55566555, y: -0.42968842, z: 0.5812774, w: -0.4107558}
+      scale: {x: 0.9999981, y: 1.0000029, z: 0.9999995}
+    - name: leg mid 1.L
+      parentName: leg mid 2.L
+      position: {x: 0.00000010058284, y: 0.36500624, z: -0.00000004284084}
+      rotation: {x: -0.036282238, y: 0.000000034256352, z: 0.8049098, w: 0.5922869}
+      scale: {x: 0.99999756, y: 1.000002, z: 1.0000001}
+    - name: leg mid 4.R
+      parentName: Body 2
+      position: {x: 0.06286303, y: 0.20082872, z: 0.14512983}
+      rotation: {x: 0.00000011378051, y: 0.00000037231135, z: -0.7071068, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: leg mid 3.R
+      parentName: leg mid 4.R
+      position: {x: -0.00000014648532, y: 0.040756106, z: 0.00000003379562}
+      rotation: {x: 0.5051368, y: -0.00089794735, z: -0.0007864582, w: 0.8630385}
+      scale: {x: 1, y: 1.0000002, z: 1.0000005}
+    - name: leg mid 2.R
+      parentName: leg mid 3.R
+      position: {x: -0.00000011366501, y: 0.20130093, z: 0.00000002165325}
+      rotation: {x: -0.55566597, y: -0.4296879, z: 0.58127743, w: 0.4107557}
+      scale: {x: 0.9999982, y: 1.0000025, z: 0.9999999}
+    - name: leg mid 1.R
+      parentName: leg mid 2.R
+      position: {x: -0.000000029802322, y: 0.365006, z: 0.00000006891787}
+      rotation: {x: -0.03628213, y: -0.000000075522735, z: -0.80491066, w: 0.5922859}
+      scale: {x: 0.9999981, y: 1.000003, z: 0.9999997}
+    - name: leg bot 4.L
+      parentName: Body 1
+      position: {x: -0.06286286, y: 0.2224191, z: 0.10953486}
+      rotation: {x: 0.052926894, y: -0.052926525, z: 0.7051232, w: 0.7051233}
+      scale: {x: 1, y: 1, z: 1}
+    - name: leg bot 3.L
+      parentName: leg bot 4.L
+      position: {x: -0.0000000047615325, y: 0.040756106, z: -0.00000006930118}
+      rotation: {x: 0.30352315, y: -0.2032501, z: 0.6020437, w: 0.71000457}
+      scale: {x: 1.0000004, y: 0.9999997, z: 1}
+    - name: leg bot 2.L
+      parentName: leg bot 3.L
+      position: {x: -0.0000003350433, y: 0.17916435, z: -0.00000012293458}
+      rotation: {x: 0.24445121, y: -0.8047871, z: 0.120853044, w: -0.5272152}
+      scale: {x: 0.9999975, y: 1.000002, z: 0.9999988}
+    - name: leg bot 1.L
+      parentName: leg bot 2.L
+      position: {x: -0.000000014901161, y: 0.3064405, z: -0.00000007962808}
+      rotation: {x: 0.43313232, y: -0.02541891, z: 0.5757244, w: 0.69303083}
+      scale: {x: 0.9999967, y: 1.0000036, z: 0.9999996}
+    - name: leg bot 4.R
+      parentName: Body 1
+      position: {x: 0.06286302, y: 0.22241911, z: 0.1095348}
+      rotation: {x: 0.0088002505, y: 0.07433133, z: -0.990277, w: 0.117255606}
+      scale: {x: 0.9999999, y: 1, z: 0.99999994}
+    - name: leg bot 3.R
+      parentName: leg bot 4.R
+      position: {x: -1.4193313e-10, y: 0.040756106, z: -0.0000000010299379}
+      rotation: {x: 0.046466902, y: -0.14391248, z: -0.11663943, w: 0.98159325}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: leg bot 2.R
+      parentName: leg bot 3.R
+      position: {x: 0.000000042608008, y: 0.17916438, z: -0.000000063329935}
+      rotation: {x: 0.50481707, y: 0.19001243, z: 0.118791305, w: 0.83363277}
+      scale: {x: 0.9999977, y: 1.0000035, z: 1.000001}
+    - name: leg bot 1.R
+      parentName: leg bot 2.R
+      position: {x: 0.000000074505806, y: 0.30644047, z: 0.00000010384247}
+      rotation: {x: -0.038208354, y: -0.000000041869644, z: -0.84764224, w: 0.52919066}
+      scale: {x: 0.9999967, y: 1.0000031, z: 1.0000002}
+    - name: leg top_IK.L
+      parentName: clock rig
+      position: {x: -0.7764889, y: -0.30440357, z: 0.00000029802322}
+      rotation: {x: 0.48861277, y: -0.48861304, z: 0.5111333, w: 0.5111337}
+      scale: {x: 0.9999999, y: 0.9999998, z: 0.99999994}
+    - name: leg mid_IK.L
+      parentName: clock rig
+      position: {x: -0.70852906, y: 0.7186244, z: -0.00000024816836}
+      rotation: {x: 0.48861322, y: -0.4886124, z: 0.511134, w: 0.51113313}
+      scale: {x: 1, y: 1, z: 1}
+    - name: leg bot_IK.L
+      parentName: clock rig
+      position: {x: -0.4661707, y: 1.3938257, z: 0.00000053457916}
+      rotation: {x: 0.4886137, y: -0.4886126, z: 0.51113385, w: 0.51113266}
+      scale: {x: 1, y: 1, z: 1}
+    - name: leg top_pole.L
+      parentName: clock rig
+      position: {x: -0.37258816, y: 0.044376418, z: 0.8372046}
+      rotation: {x: 0.7069274, y: 0.015924683, z: 0.015924683, w: 0.7069275}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: leg mid_pole.L
+      parentName: clock rig
+      position: {x: -0.5075383, y: 0.7186244, z: 0.60120845}
+      rotation: {x: 0.7069274, y: 0.015924841, z: 0.015924841, w: 0.7069275}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.9999999}
+    - name: leg bot_pole.L
+      parentName: clock rig
+      position: {x: -0.3174252, y: 1.2865406, z: 0.50781757}
+      rotation: {x: 0.7069274, y: 0.015924765, z: 0.015924767, w: 0.7069275}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: claw_IK.L
+      parentName: clock rig
+      position: {x: -0.11770671, y: -0.2270153, z: 0.8641555}
+      rotation: {x: 0.99997926, y: 2.8175473e-10, z: 0.0064457967, w: -0.000000043710486}
+      scale: {x: 1, y: 1, z: 1}
+    - name: claw_pole.L
+      parentName: clock rig
+      position: {x: -0.11770671, y: -0.1669138, z: 1.3868402}
+      rotation: {x: 0.70709205, y: 0.004557898, z: 0.004557898, w: 0.7070921}
+      scale: {x: 1, y: 1, z: 1}
+    - name: leg top_IK.R
+      parentName: clock rig
+      position: {x: 0.7764889, y: -0.30440357, z: 0.00000029802322}
+      rotation: {x: 0.48861277, y: 0.48861304, z: -0.5111333, w: 0.5111337}
+      scale: {x: 0.9999999, y: 0.9999998, z: 0.99999994}
+    - name: leg mid_IK.R
+      parentName: clock rig
+      position: {x: 0.70852906, y: 0.7186244, z: -0.00000024816836}
+      rotation: {x: 0.48861322, y: 0.4886124, z: -0.511134, w: 0.51113313}
+      scale: {x: 1, y: 1, z: 1}
+    - name: leg bot_IK.R
+      parentName: clock rig
+      position: {x: 0.46617097, y: 1.3938257, z: 0.00000053457916}
+      rotation: {x: 0.4886137, y: 0.4886126, z: -0.51113385, w: 0.51113266}
+      scale: {x: 1, y: 1, z: 1}
+    - name: leg top_pole.R
+      parentName: clock rig
+      position: {x: 0.37258816, y: 0.044376418, z: 0.8372046}
+      rotation: {x: 0.7069274, y: -0.015924683, z: -0.015924683, w: 0.7069275}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: leg mid_pole.R
+      parentName: clock rig
+      position: {x: 0.5075383, y: 0.7186244, z: 0.60120845}
+      rotation: {x: 0.7069274, y: -0.015924841, z: -0.015924841, w: 0.7069275}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.9999999}
+    - name: leg bot_pole.R
+      parentName: clock rig
+      position: {x: 0.3174252, y: 1.2865406, z: 0.50781757}
+      rotation: {x: 0.7069274, y: -0.015924765, z: -0.015924767, w: 0.7069275}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: claw_IK.R
+      parentName: clock rig
+      position: {x: 0.117706954, y: -0.2270153, z: 0.8641555}
+      rotation: {x: 0.99997926, y: -2.8175473e-10, z: -0.0064457967, w: -0.000000043710486}
+      scale: {x: 1, y: 1, z: 1}
+    - name: claw_pole.R
+      parentName: clock rig
+      position: {x: 0.117706954, y: -0.1669138, z: 1.3868402}
+      rotation: {x: 0.70709205, y: -0.004557898, z: -0.004557898, w: 0.7070921}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Body_IK
+      parentName: clock rig
+      position: {x: 0.000000086312646, y: 0.26425433, z: 1.8399631}
+      rotation: {x: 0.7071068, y: -0.0000001685874, z: -0.00000016858736, w: 0.7071067}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    armTwist: 0.492
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 1
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

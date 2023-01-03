@@ -1,0 +1,289 @@
+fileFormatVersion: 2
+guid: b0af1904bf8ba45bf8d08f88b7de70c1
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: -623603649343465320
+    second: Scene
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 0
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Scene
+      takeName: Scene
+      internalID: 0
+      firstFrame: 40
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 40
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
+    importBlendShapes: 0
+    importCameras: 0
+    importLights: 0
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: SofaMonsterStatic(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: monster chair rig
+      parentName: SofaMonsterStatic(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071067, y: -0.000000030908616, z: 0.000000030908623, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: body
+      parentName: monster chair rig
+      position: {x: -0, y: 1.525243, z: 1.8471718}
+      rotation: {x: 0.22223072, y: 0.000000052233812, z: -0.00000005223382, w: 0.9749941}
+      scale: {x: 1, y: 1, z: 1}
+    - name: leg con
+      parentName: body
+      position: {x: -0, y: 0.0045681, z: 1.525243}
+      rotation: {x: 0.4333856, y: -0.6586681, z: 0.31671506, w: 0.5272806}
+      scale: {x: 1, y: 1, z: 1}
+    - name: leg front 1.R
+      parentName: leg con
+      position: {x: 0.7672157, y: -0.04075241, z: 1.0363758}
+      rotation: {x: 0.57710695, y: 0.22375146, z: -0.7847072, w: -0.0334301}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: leg front 2.R
+      parentName: leg front 1.R
+      position: {x: -0.000000018561671, y: 0.46927705, z: 0.00000008132474}
+      rotation: {x: 0.15708925, y: 0.016939864, z: -0.047827765, w: 0.98628014}
+      scale: {x: 1.0000002, y: 1.0000013, z: 1.0000004}
+    - name: leg front 3.R
+      parentName: leg front 2.R
+      position: {x: 0.000000045893188, y: 1.080907, z: -0.00000012466067}
+      rotation: {x: -0.008410828, y: -0.9993384, z: 0.034077976, w: -0.00952689}
+      scale: {x: 1.0000012, y: 1.000001, z: 1.0000005}
+    - name: leg front 4.R
+      parentName: leg front 3.R
+      position: {x: 0.00000024856618, y: 1.3379182, z: -0.000000015629467}
+      rotation: {x: 0.00000004439588, y: 0.37510625, z: -0.92698187, w: 0.000000009039707}
+      scale: {x: 1.0000004, y: 1, z: 0.9999998}
+    - name: leg back 1.R
+      parentName: leg con
+      position: {x: 0.7672157, y: -0.04075241, z: -1.1345937}
+      rotation: {x: 0.45211536, y: 0.55293816, z: -0.56481105, w: 0.41332746}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: leg back 2.R
+      parentName: leg back 1.R
+      position: {x: -0.00000001856165, y: 0.46927723, z: 0.00000022749607}
+      rotation: {x: 0.33386323, y: -0, z: 0.00000005960465, w: 0.9426215}
+      scale: {x: 1.0000004, y: 1.0000013, z: 1.0000006}
+    - name: leg back 3.R
+      parentName: leg back 2.R
+      position: {x: 0.00000006780071, y: 1.080907, z: -0.00000003640325}
+      rotation: {x: -0.00000015627882, y: -0.6618153, z: 0.749667, w: 0.00000005528469}
+      scale: {x: 1.0000008, y: 1.0000005, z: 1.0000002}
+    - name: leg back 4.R
+      parentName: leg back 3.R
+      position: {x: 0.00000003846968, y: 1.3379185, z: -0.000000030356645}
+      rotation: {x: 0.00000004439588, y: 0.37510625, z: -0.92698187, w: 0.000000009039707}
+      scale: {x: 1.0000001, y: 1, z: 0.9999998}
+    - name: leg front 1.L
+      parentName: leg con
+      position: {x: -0.7672157, y: -0.04075241, z: 1.0363758}
+      rotation: {x: 0.24195077, y: -0.4950662, z: -0.031554434, w: 0.8338906}
+      scale: {x: 1, y: 1.0000005, z: 1.0000004}
+    - name: leg front 2.L
+      parentName: leg front 1.L
+      position: {x: 0.000000018561671, y: 0.46927705, z: 0.00000008132474}
+      rotation: {x: -0.094057344, y: 0.019751579, z: -0.055765927, w: 0.99380755}
+      scale: {x: 1.0000001, y: 1.0000005, z: 0.99999994}
+    - name: leg front 3.L
+      parentName: leg front 2.L
+      position: {x: 0.000000010081742, y: 1.0809069, z: -0.00000015760347}
+      rotation: {x: 0.0028090563, y: 0.9997321, z: -0.022758013, w: 0.0031821053}
+      scale: {x: 1.0000006, y: 1.000001, z: 1.0000007}
+    - name: leg front 4.L
+      parentName: leg front 3.L
+      position: {x: -0.0000002619431, y: 1.3379183, z: 0.000000042361364}
+      rotation: {x: 7.5401196e-10, y: -0.37510633, z: 0.92698187, w: -0.00000005338054}
+      scale: {x: 1, y: 0.9999996, z: 0.99999934}
+    - name: leg back 1.L
+      parentName: leg con
+      position: {x: -0.7672157, y: -0.04075241, z: -1.1345937}
+      rotation: {x: 0.5502157, y: -0.4441427, z: 0.5502156, w: 0.4441427}
+      scale: {x: 1, y: 1.0000005, z: 1.0000004}
+    - name: leg back 2.L
+      parentName: leg back 1.L
+      position: {x: 0.00000001856165, y: 0.46927723, z: 0.00000022749607}
+      rotation: {x: 0.33386317, y: 0.000000052154064, z: 0.000000044703484, w: 0.9426216}
+      scale: {x: 1.0000001, y: 1.0000001, z: 0.99999994}
+    - name: leg back 3.L
+      parentName: leg back 2.L
+      position: {x: -0.000000011825733, y: 1.0809071, z: -3.384315e-10}
+      rotation: {x: 0.00000001817286, y: 0.6618154, z: -0.74966687, w: -0.000000024115126}
+      scale: {x: 1.0000007, y: 1.0000013, z: 1.0000006}
+    - name: leg back 4.L
+      parentName: leg back 3.L
+      position: {x: -0.00000017105589, y: 1.3379185, z: 0.00000003101472}
+      rotation: {x: 7.5401196e-10, y: -0.37510633, z: 0.92698187, w: -0.00000005338054}
+      scale: {x: 0.9999998, y: 0.9999996, z: 0.999999}
+    - name: mouth
+      parentName: body
+      position: {x: -0, y: 1.0821028, z: 0.70272624}
+      rotation: {x: 0.5642314, y: -0.0000002952625, z: -0.00000020178413, w: 0.8256167}
+      scale: {x: 1, y: 1.0000004, z: 1.0000004}
+    - name: leg front 4 IK.R
+      parentName: monster chair rig
+      position: {x: 2.833889, y: -1.0363758, z: -0.0040067434}
+      rotation: {x: 0.50000036, y: 0.5000004, z: -0.4999997, w: 0.49999958}
+      scale: {x: 0.9999997, y: 0.99999976, z: 1}
+    - name: leg back 4 IK.R
+      parentName: monster chair rig
+      position: {x: 2.833889, y: 1.1345937, z: -0.0040067434}
+      rotation: {x: 0.50000036, y: 0.5000004, z: -0.4999997, w: 0.49999958}
+      scale: {x: 0.9999997, y: 0.99999976, z: 1}
+    - name: leg front pole.R
+      parentName: monster chair rig
+      position: {x: 2.833889, y: -1.0363758, z: 2.8311968}
+      rotation: {x: 0.7071067, y: 0.00000048328576, z: 0.00000035965124, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: leg back pole.R
+      parentName: monster chair rig
+      position: {x: 2.833889, y: 1.1345937, z: 2.8311968}
+      rotation: {x: 0.7071067, y: 0.00000048328576, z: 0.00000035965124, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: leg front 4 IK.L
+      parentName: monster chair rig
+      position: {x: -2.833889, y: -1.0363758, z: -0.0040067434}
+      rotation: {x: 0.50000036, y: -0.50000036, z: 0.49999967, w: 0.4999997}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1}
+    - name: leg back 4 IK.L
+      parentName: monster chair rig
+      position: {x: -2.833889, y: 1.1345937, z: -0.0040067434}
+      rotation: {x: 0.50000036, y: -0.50000036, z: 0.49999967, w: 0.4999997}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1}
+    - name: leg front pole.L
+      parentName: monster chair rig
+      position: {x: -2.833889, y: -1.0363758, z: 2.8311968}
+      rotation: {x: 0.7071067, y: -0.0000003596513, z: -0.00000048328576, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: leg back pole.L
+      parentName: monster chair rig
+      position: {x: -2.833889, y: 1.1345937, z: 2.8311968}
+      rotation: {x: 0.7071067, y: -0.0000003596513, z: -0.00000048328576, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: monster chair
+      parentName: SofaMonsterStatic(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 7.187609e-15, z: -0.00000006181724, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: legs of monster chair
+      parentName: SofaMonsterStatic(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 7.187609e-15, z: -0.00000006181724, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: ded76a1603a3d4f388a51d2e7a6787fc, type: 3}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 2
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

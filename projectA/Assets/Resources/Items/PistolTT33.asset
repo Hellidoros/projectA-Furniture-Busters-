@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1700403452f14901bd1e000ca7c36c3, type: 3}
+  m_Name: PistolTT33
+  m_EditorClassIdentifier: 
+  Name: TT33
+  Description: hello I'm pistol
+  icon: {fileID: 21300000, guid: 0968a7ad8af5944e381a72a7ac32a171, type: 3}
+  Prefab: {fileID: 5970026352944608773, guid: 03ab78218360a41f08fc1529bbe8bcb4, type: 3}
+  AnimationBoolName: PistolT33Enabled
+  MagazineSize: 7
+  StoredAmmo: 22
+  FireRate: 0.36
+  Range: 15
+  Animation: PistolT33Enabled

@@ -1,0 +1,317 @@
+fileFormatVersion: 2
+guid: bd3227d863ea140f992b6ea42c648b24
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Basement 2
+    second: {fileID: 2100000, guid: 63249d651e846405f9e7c23dc739a1f9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Basement_
+    second: {fileID: 2100000, guid: 0d72a88a2449b44e38c41cd8499b5299, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bath
+    second: {fileID: 2100000, guid: 281fa24c034c04215915c011c47eeec8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bedroom
+    second: {fileID: 2100000, guid: 69d86ae00cb1e4bc6ab9fca01ed563e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CEILING
+    second: {fileID: 2100000, guid: d076fdee3ade84f898671193faf162a4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cabinet
+    second: {fileID: 2100000, guid: 3ab57645f6f38414480428c74af3744d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Corridor 1
+    second: {fileID: 2100000, guid: bae22309ee4d14ef7a1de9996d95a39f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Corridor 2
+    second: {fileID: 2100000, guid: 9e012d24544ec4cd2b3dbe4816b2e534, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Fork
+    second: {fileID: 2100000, guid: a3a978126a4cc45c6b10f65805618ec7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hall
+    second: {fileID: 2100000, guid: bfa38e8d9e7834e12816811834aa6682, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kitchen
+    second: {fileID: 2100000, guid: aebadf38bc77843ec8782bfa67e797f4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Landing
+    second: {fileID: 2100000, guid: 8edffccfc36b943f5bb9014925b5754e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Landing 2
+    second: {fileID: 2100000, guid: ebeabfae6e0664fc6ac7d3bab78cb383, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Living room
+    second: {fileID: 2100000, guid: 4ac39334141264fe6ba17bcac3d7f734, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Music room
+    second: {fileID: 2100000, guid: 6a317585cbc9942b5ab62a818960fa19, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: NON color openings
+    second: {fileID: 2100000, guid: f81bc50e5cf784c8db4100b7c8062814, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plinth
+    second: {fileID: 2100000, guid: 723e99b92f0b742a28341fcb7bc31060, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stairs
+    second: {fileID: 2100000, guid: 134613a5202c54df7a566bc049209260, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stairs.001
+    second: {fileID: 2100000, guid: 6e9e88c2f750d4e7581e615a560dcb82, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stairs.002
+    second: {fileID: 2100000, guid: 93b2bfde533f14f4d80f7ff124ffb18e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stairs.003
+    second: {fileID: 2100000, guid: f9a43ddab69c34905a0028369bb0a95c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stone floor
+    second: {fileID: 2100000, guid: 479338274ee6441299586c7ac477a047, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood planks
+    second: {fileID: 2100000, guid: 4e042278c5d2b4ec5a23bd48dfe32424, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood planks.001
+    second: {fileID: 2100000, guid: 9778fae81a6a746f1bb40719df02eb4d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood planks.002
+    second: {fileID: 2100000, guid: 44d2ff5caa7794a5d9e6d67e566da2f1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bathroom floor
+    second: {fileID: 2100000, guid: ad2f711bc27ae4bf4b3f36c38c386fca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: painted wooden floor
+    second: {fileID: 2100000, guid: 4e4e0b6f996fe487eb1f7d930366f7b4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stone parts
+    second: {fileID: 2100000, guid: bac48fd600b8c44fab89d8f7e445c380, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Basement 1
+    second: {fileID: 2800000, guid: 2a635c9a4b6704287944cb750773ad00, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Bathroom
+    second: {fileID: 2800000, guid: 73a71ade8246c41c29ecd27119ca7f60, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Bedroom
+    second: {fileID: 2800000, guid: dd5d3b1d8fbc34238ba460d6c2dffe2d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Cabinet
+    second: {fileID: 2800000, guid: c1c2eaf18047c4ae1b1f4f7cfc9e6886, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Corridor 1
+    second: {fileID: 2800000, guid: ff95385989dc44851b1c7da2cd950f82, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Corridor 2
+    second: {fileID: 2800000, guid: 58bacf746dda3444f9b67b14f17f512e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 'Fork '
+    second: {fileID: 2800000, guid: a283223d2e5d0474a9eb936da28cf79b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Hall
+    second: {fileID: 2800000, guid: c484719b250594e0fa148e5a080a8a8f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Kitchen
+    second: {fileID: 2800000, guid: 7f1ba866cc7f44524809a5cdd7bf35e4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Living room
+    second: {fileID: 2800000, guid: 65e8fe27417414cf9828250e0440b9d8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Music room
+    second: {fileID: 2800000, guid: 85bcbd6d1b97b49a1b077e9a75127dea, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Stone floor_Stone floor_color.1001
+    second: {fileID: 2800000, guid: 7b5b2ba676a10452b93e3fb13d24d88e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: basement 2
+    second: {fileID: 2800000, guid: 6985ea258969b4bd6a806fc79d0ad844, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: floor
+    second: {fileID: 2800000, guid: 2560de8ee05804eb9ad2ee134e8bb498, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: landing
+    second: {fileID: 2800000, guid: 680e10934b72b43abb50978318c09f5a, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 2
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

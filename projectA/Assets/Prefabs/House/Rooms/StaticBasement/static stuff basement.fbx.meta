@@ -1,0 +1,262 @@
+fileFormatVersion: 2
+guid: 67eaa656a4d6d41348f0e911e5f83864
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: basement.002
+    second: {fileID: 2100000, guid: 248e6acb63a58444d92593e58585385a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: basement.003
+    second: {fileID: 2100000, guid: 2118321764f444f9c97e49007d5f8a35, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: basement.004
+    second: {fileID: 2100000, guid: d24b5aba9b54e49a5a563b37b17ceb94, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: basement.005
+    second: {fileID: 2100000, guid: 86b01c24cfdca4ff88ac839e95211197, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: basement.006
+    second: {fileID: 2100000, guid: 8c6a1a56badd44236981c3f6f856e755, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: basement.008
+    second: {fileID: 2100000, guid: 729e4ac47d4e04ff6920a190c0d718cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: basement.010
+    second: {fileID: 2100000, guid: 80cded1fdf5c34e1caa94ba75b8a1256, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: basement.011
+    second: {fileID: 2100000, guid: 61f1bf0479c2c4344848e33e659ec8ce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: basement.012
+    second: {fileID: 2100000, guid: 47ebe930273e944d4941d825c4f59160, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: basement.013
+    second: {fileID: 2100000, guid: 96cdb46ab12c8477c8e99d3ebddd7ba9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: basement.014
+    second: {fileID: 2100000, guid: 23c901ea99c754d51a43cd0d98977f47, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: basement.016
+    second: {fileID: 2100000, guid: 47ee25d59daa3402b835112289cf9d78, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: basement.017
+    second: {fileID: 2100000, guid: 191a4850a5bac4558bb1c9593ce37e86, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: basement.018
+    second: {fileID: 2100000, guid: e56b94c66c00a4fe882b657d4c0870b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: basement.019
+    second: {fileID: 2100000, guid: 0a169eb2a27a4427dbeeb3dd43e12135, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: basement.020
+    second: {fileID: 2100000, guid: 878c4c3e8fbf14975b03018e217b3765, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: basement.021
+    second: {fileID: 2100000, guid: 10f8f62103bd84a199825440f02f3dda, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: basement.022
+    second: {fileID: 2100000, guid: 374f584289b24498ba3d62eeb5c32e36, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: basement.023
+    second: {fileID: 2100000, guid: e90fd03d31fab43b28ae323676915ab2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: basement.025
+    second: {fileID: 2100000, guid: ce3e020b671ea4a4982d7d5fcc7236f7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: basement.026
+    second: {fileID: 2100000, guid: c40f7af32b3a44cfe8f86871f08cec5e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: basement.027
+    second: {fileID: 2100000, guid: b3d403270e764441697720f8822e91dc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: basement.029
+    second: {fileID: 2100000, guid: 58bdd41f38f034f70baa2d36e1fb767d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: basement.030
+    second: {fileID: 2100000, guid: bd546c61fb782424981c6cc9cc9accf4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: basement.031
+    second: {fileID: 2100000, guid: 47233db88fd2947bba797913ad38def7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: basement.032
+    second: {fileID: 2100000, guid: 88fc0a4c2f2034ca1b4245220daeabb8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: basement.033
+    second: {fileID: 2100000, guid: 7259f037d5bf04e97974624baa091aec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: basement.034
+    second: {fileID: 2100000, guid: f1c39bb127d7e4c118ff5611ffd566f1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: basement.035
+    second: {fileID: 2100000, guid: 9d49ccaf45e99467aa6272c653df81cd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: basement.036
+    second: {fileID: 2100000, guid: 0dae6d01d1056491c97b843a831e340c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: basement.037
+    second: {fileID: 2100000, guid: 417c3225e317d44fcaafe58c5418314c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: basement.038
+    second: {fileID: 2100000, guid: 34ee4cbb7419140d18b6e1c2aadd27ab, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 3
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
