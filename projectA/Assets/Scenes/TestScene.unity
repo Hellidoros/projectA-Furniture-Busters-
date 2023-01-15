@@ -3010,7 +3010,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 1110f0e9d867d49408ee999dc03a29af, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1110f0e9d867d49408ee999dc03a29af, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8845,7 +8845,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5797836721034846245, guid: 5dd5288ef96f045a6a5c23be4a36e250, type: 3}
   m_PrefabInstance: {fileID: 5797836721781822511}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 5797836721781822512}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 05b262cff639042dba21ff85b759fafa, type: 3}
@@ -9608,7 +9608,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: THANK YOU FOR PLAYING!
+  m_text: THANK YOU FOR PLAYING DEMO!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 38539f38a8d7c490e94b7c51933de4c6, type: 2}
   m_sharedMaterial: {fileID: -8432732660588862775, guid: 38539f38a8d7c490e94b7c51933de4c6, type: 2}
@@ -9698,8 +9698,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _text: {fileID: 323001803}
-  _english: THANK YOU FOR PLAYING!
-  _russian: "\u0421\u041F\u0410\u0421\u0418\u0411\u041E \u0417\u0410 \u0418\u0413\u0420\u0423!"
+  _english: THANK YOU FOR PLAYING DEMO!
+  _russian: "\u0421\u041F\u0410\u0421\u0418\u0411\u041E \u0417\u0410 \u0422\u041E
+    \u0427\u0422\u041E \u0421\u042B\u0413\u0420\u0410\u041B\u0418 \u0414\u0415\u041C\u041A\u0423!"
 --- !u!1 &339967687
 GameObject:
   m_ObjectHideFlags: 0
@@ -17675,6 +17676,21 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 6044104083952806780, guid: a8cda10bced644360871aa6d8d2beb37, type: 3}
   m_PrefabInstance: {fileID: 6854920041997900444}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &660056665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 660056664}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 879587d29ab1140dcbbfe4051a1aedfe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _position1: {x: 13.83, y: -8.322, z: -17.438}
+  _position2: {x: 7.297, y: -8.372, z: 1.71}
+  _position3: {x: 5.17, y: -8.746, z: -17.236}
 --- !u!1 &662401906
 GameObject:
   m_ObjectHideFlags: 0
@@ -18048,7 +18064,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 31c234ad83bd8418086f4835fe0dc014, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 31c234ad83bd8418086f4835fe0dc014, type: 3}
       propertyPath: m_LocalScale.x
@@ -36692,7 +36708,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 2697a14586cd04d399366b8d83a16600, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2697a14586cd04d399366b8d83a16600, type: 3}
       propertyPath: m_LocalScale.x
@@ -41263,7 +41279,6 @@ GameObject:
   - component: {fileID: 1729800199}
   - component: {fileID: 1729800200}
   - component: {fileID: 1729800201}
-  - component: {fileID: 1729800202}
   m_Layer: 0
   m_Name: ---PLAYER---------------------------------
   m_TagString: Untagged
@@ -41382,22 +41397,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 470bc86ccf10c41a8ab4a61f062a50c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1729800202
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1729800196}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 879587d29ab1140dcbbfe4051a1aedfe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _item: {fileID: 0}
-  _position1: {x: 0, y: 0, z: 0}
-  _position2: {x: 0, y: 0, z: 0}
-  _position3: {x: 0, y: 0, z: 0}
 --- !u!1 &1738360068
 GameObject:
   m_ObjectHideFlags: 0
@@ -56936,6 +56935,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5dd5288ef96f045a6a5c23be4a36e250, type: 3}
+--- !u!1 &5797836721781822512 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6680918619681140292, guid: 5dd5288ef96f045a6a5c23be4a36e250, type: 3}
+  m_PrefabInstance: {fileID: 5797836721781822511}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5797836721781822513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5797836721781822512}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 879587d29ab1140dcbbfe4051a1aedfe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _position1: {x: -8.893, y: -8.66, z: -4.453}
+  _position2: {x: -4.453, y: -9.33, z: 0.79}
+  _position3: {x: -14.335, y: -9.695, z: -20.63}
 --- !u!1001 &5832835990499073995
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -57001,6 +57020,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bd1615ef164b040f1b0cdd140a011ec3, type: 3}
+--- !u!1 &5832835990499073996 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6643667878060018983, guid: bd1615ef164b040f1b0cdd140a011ec3, type: 3}
+  m_PrefabInstance: {fileID: 5832835990499073995}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5832835990499073997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5832835990499073996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 879587d29ab1140dcbbfe4051a1aedfe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _position1: {x: 1.462, y: -9.579, z: 5.708}
+  _position2: {x: -18.206, y: -9.747, z: 12.248}
+  _position3: {x: -16.68, y: -8.38, z: -19.25}
 --- !u!1 &5837523471825706424
 GameObject:
   m_ObjectHideFlags: 0

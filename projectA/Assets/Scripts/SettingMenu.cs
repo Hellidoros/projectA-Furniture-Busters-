@@ -76,55 +76,63 @@ public class SettingMenu : MonoBehaviour
 
     public void GetSavedReferences()
     {
-        var reader = QuickSaveReader.Create("SettingManager" + this.gameObject.name);
-
-        LanguageInt = reader.Read<int>("Language");
-        _languageHasChanged = reader.Read<bool>("LanguageChanged");
-
-        _resolutionChanged = reader.Read<bool>("ResolutionChanged");
-        _soundVolume = reader.Read<float>("SoundVolume");
-        _musicVolume = reader.Read<float>("MusicVolume");
-        _mouseSensivity = reader.Read<float>("MouseSensivity");
-        _qualityIndex = reader.Read<int>("Qualitty");
-
-        SetMusicVolume(_musicVolume);
-        SetSoundsVolume(_soundVolume);
-        SetMouseSensivity(_mouseSensivity);
-        SetQuality(_qualityIndex);
-
-        if (!UIManager.SmartphoneInput)
+        try
         {
-            _isFullscreen = reader.Read<bool>("Fullscreen");
-            _savedResolutionIndex = reader.Read<int>("ResolutionIndex");
+            var reader = QuickSaveReader.Create("SettingManager" + this.gameObject.name);
 
-            SetFullScreen(_isFullscreen);
+            LanguageInt = reader.Read<int>("Language");
+            _languageHasChanged = reader.Read<bool>("LanguageChanged");
 
-            if(_resoltuionDropdown != null)
+            _resolutionChanged = reader.Read<bool>("ResolutionChanged");
+            _soundVolume = reader.Read<float>("SoundVolume");
+            _musicVolume = reader.Read<float>("MusicVolume");
+            _mouseSensivity = reader.Read<float>("MouseSensivity");
+            _qualityIndex = reader.Read<int>("Qualitty");
+
+            SetMusicVolume(_musicVolume);
+            SetSoundsVolume(_soundVolume);
+            SetMouseSensivity(_mouseSensivity);
+            SetQuality(_qualityIndex);
+
+            if (!UIManager.SmartphoneInput)
             {
-                if (_resolutionChanged)
+                _isFullscreen = reader.Read<bool>("Fullscreen");
+                _savedResolutionIndex = reader.Read<int>("ResolutionIndex");
+
+                SetFullScreen(_isFullscreen);
+
+                if (_resoltuionDropdown != null)
                 {
-                    SetResolution(_savedResolutionIndex);
+                    if (_resolutionChanged)
+                    {
+                        SetResolution(_savedResolutionIndex);
+                    }
                 }
             }
+
+            _qualityDropdown.value = _qualityIndex;
+            _languageDropdown.value = LanguageInt;
+
+            _languageDropdown.value = LanguageInt;
+            _musicSLider.value = _musicVolume;
+            _volumeSlider.value = _soundVolume;
+            _sensivitySlider.value = _mouseSensivity;
+
+
+            if (_languageHasChanged)
+            {
+                ChangeLanguage();
+            }
+            else
+            {
+                InitializeLanguage();
+            }
         }
-
-        _qualityDropdown.value = _qualityIndex;
-        _languageDropdown.value = LanguageInt;
-
-        _languageDropdown.value = LanguageInt;
-        _musicSLider.value = _musicVolume;
-        _volumeSlider.value = _soundVolume;
-        _sensivitySlider.value = _mouseSensivity;
-
-
-        if (_languageHasChanged)
+        catch
         {
-            ChangeLanguage();
+            Debug.Log("Root SettingMenu does not exist");
         }
-        else
-        {
-            InitializeLanguage();
-        }
+        
 
     }
 

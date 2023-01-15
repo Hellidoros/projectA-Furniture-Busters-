@@ -7,6 +7,7 @@ using UnityEngine.UI;
 public class DiffucultyLevelScript : MonoBehaviour
 {
     public static int DifficultyLevel = 1;
+    public static bool IsRandomItemSpawning = false;
 
     private void Awake()
     {
@@ -19,6 +20,7 @@ public class DiffucultyLevelScript : MonoBehaviour
         var writer = QuickSaveWriter.Create("DifficultyManager");
 
         writer.Write("Difficulty", DifficultyLevel);
+        writer.Write("RandomItemSpawning", IsRandomItemSpawning);
         writer.Commit();
     }
 
@@ -30,12 +32,19 @@ public class DiffucultyLevelScript : MonoBehaviour
         {
             DifficultyLevel = reader.Read<int>("Difficulty");
         }
+
+        IsRandomItemSpawning = reader.Read<bool>("RandomItemSpawning");
     }
 
     public void SetDifficultyLevel(int num)
     {
         DifficultyLevel = num;
         SaveCurrentProgress();
+    }
+
+    public void SetRandomItemSpawning(bool set)
+    {
+        IsRandomItemSpawning = set;
     }
 
 }
