@@ -7,6 +7,7 @@ using UnityEngine.UI;
 using CI.QuickSave;
 using TMPro;
 using UnityEngine.Events;
+using System;
 
 public class SettingMenu : MonoBehaviour
 {
@@ -48,6 +49,8 @@ public class SettingMenu : MonoBehaviour
     [SerializeField] private TextMeshProUGUI _resolutionText;
 
     public UnityEvent _changeLanguageEvents;
+
+    public static event Action ChangeLanguageEvent;
 
     private bool _languageHasChanged = false;
     private bool _resolutionChanged = false;
@@ -172,7 +175,7 @@ public class SettingMenu : MonoBehaviour
 
     private void Update()
     {
-        if ( _uiManager != null &&_uiManager.PauseCanvas.activeSelf )
+        if ( _uiManager != null &&_uiManager.PauseCanvas.activeSelf)
         {
             if (!UIManager.SmartphoneInput)
             {
@@ -219,35 +222,37 @@ public class SettingMenu : MonoBehaviour
 
     public void ChangeLanguage()
     {
-        if (LanguageInt == 0)
+        switch (LanguageInt)
         {
-            _settingsText.text = "SETTINGS";
-            _languageText.text = "LANGUAGE";
-            _graphicsText.text = "GRAPHICS";
-            _musicText.text = "MUSIC";
-            _soundText.text = "SOUND";
-            _sensivityText.text = "SENSIVITY";
+            case 0: //English
+                _settingsText.text = "SETTINGS";
+                _languageText.text = "LANGUAGE";
+                _graphicsText.text = "GRAPHICS";
+                _musicText.text = "MUSIC";
+                _soundText.text = "SOUND";
+                _sensivityText.text = "SENSIVITY";
 
-            if(_fullscreenText != null)
-            {
-                _fullscreenText.text = "FULL SCREEN";
-                _resolutionText.text = "RESOLUTION";
-            }
-        }
-        else if (LanguageInt == 1)
-        {
-            _settingsText.text = "НАСТРОЙКИ";
-            _languageText.text = "ЯЗЫК";
-            _graphicsText.text = "ГРАФИКА";
-            _musicText.text = "МУЗЫКА";
-            _soundText.text = "ЗВУК";
-            _sensivityText.text = "ЧУВСТВИТЕЛЬНОСТЬ";
+                if (_fullscreenText != null)
+                {
+                    _fullscreenText.text = "FULL SCREEN";
+                    _resolutionText.text = "RESOLUTION";
+                }
+                break;
+            case 1: //Russian
+                _settingsText.text = "НАСТРОЙКИ";
+                _languageText.text = "ЯЗЫК";
+                _graphicsText.text = "ГРАФИКА";
+                _musicText.text = "МУЗЫКА";
+                _soundText.text = "ЗВУК";
+                _sensivityText.text = "ЧУВСТВИТЕЛЬНОСТЬ";
 
-            if (_fullscreenText != null)
-            {
-                _fullscreenText.text = "ПОЛНЫЙ ЭКРАН";
-                _resolutionText.text = "РАЗРЕШЕНИЕ";
-            }
+                if (_fullscreenText != null)
+                {
+                    _fullscreenText.text = "ПОЛНЫЙ ЭКРАН";
+                    _resolutionText.text = "РАЗРЕШЕНИЕ";
+                }
+                break;
+
         }
     }
 
@@ -289,6 +294,7 @@ public class SettingMenu : MonoBehaviour
         {
             _changeLanguageEvents.Invoke();
         }
+        ChangeLanguageEvent?.Invoke();
         ChangeLanguage();
         SaveCurrentProgress();
     }

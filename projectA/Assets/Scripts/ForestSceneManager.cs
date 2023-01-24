@@ -79,6 +79,10 @@ public class ForestSceneManager : MonoBehaviour
         _handAnimator.SetTrigger("Start");
         yield return new WaitForSeconds(2f);
         _transitionAnimator.SetBool("isEnded", true);
+
+        //Increase Players Hearts amount
+        PlayerHealth.SetHeartsAmount(5);
+
         yield return new WaitForSeconds(2f);
         LoadScene(3);
     }

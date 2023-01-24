@@ -42,31 +42,35 @@ public class MenuManager : MonoBehaviour
 
     public void ChangeLanguageOfText()
     {
-        if(SettingMenu.LanguageInt == 0)
-        {
-            _continueText.text = "CONTINUE";
-            _startText.text = "START NEW GAME";
-            _optionText.text = "OPTIONS";
-            _exitText.text = "EXIT";
 
-            _difficultyText.text = "DIFFICULTY";
-            _easyText.text = "EASY";
-            _normalText.text = "NORMAL";
-            _hardText.text = "HARD";
-            _playText.text = "PLAY";
-        }
-        if(SettingMenu.LanguageInt == 1)
-        {
-            _continueText.text = "ПРОДОЛЖИТЬ";
-            _startText.text = "НОВАЯ ИГРА";
-            _optionText.text = "НАСТРОЙКИ";
-            _exitText.text = "ВЫЙТИ";
 
-            _difficultyText.text = "СЛОЖНОСТЬ";
-            _easyText.text = "ЛЕГКАЯ";
-            _normalText.text = "СРЕДНЯЯ";
-            _hardText.text = "СЛОЖНАЯ";
-            _playText.text = "ИГРАТЬ";
+        switch (SettingMenu.LanguageInt)
+        {
+            case 0:
+                _continueText.text = "CONTINUE";
+                _startText.text = "START NEW GAME";
+                _optionText.text = "OPTIONS";
+                _exitText.text = "EXIT";
+
+                _difficultyText.text = "DIFFICULTY";
+                _easyText.text = "EASY";
+                _normalText.text = "NORMAL";
+                _hardText.text = "HARD";
+                _playText.text = "PLAY";
+                break;
+
+            case 1:
+                _continueText.text = "ПРОДОЛЖИТЬ";
+                _startText.text = "НОВАЯ ИГРА";
+                _optionText.text = "НАСТРОЙКИ";
+                _exitText.text = "ВЫЙТИ";
+
+                _difficultyText.text = "СЛОЖНОСТЬ";
+                _easyText.text = "ЛЕГКАЯ";
+                _normalText.text = "СРЕДНЯЯ";
+                _hardText.text = "СЛОЖНАЯ";
+                _playText.text = "ИГРАТЬ";
+                break;
         }
     }
 
@@ -147,6 +151,9 @@ public class MenuManager : MonoBehaviour
 
         LoadProgress = false;
         EnableContinue = true;
+
+        PlayerHealth.SetHeartsAmount(5);
+
         SaveCurrentProgress();
         LoadScene(2);
     }

@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 using CI.QuickSave;
 using UnityStandardAssets.Characters.FirstPerson;
 using System;
+using TMPro;
 using UnityEngine.UI;
 
 public class PlayerHealth : MonoBehaviour
@@ -18,6 +19,9 @@ public class PlayerHealth : MonoBehaviour
     [SerializeField] private float _changeSpeed = 0.5f;
     [SerializeField] private MusicManager _musicManager;
     [SerializeField] private Animator _diedTransitionAnimator;
+    [SerializeField] private Animator _heartsAnimator;
+    [SerializeField] private TextMeshProUGUI _heartsAmountText;
+    [SerializeField] private GameObject _endGamePanel;
     [SerializeField] private SavePlayerProgress _savePlayerProgress;
 
     [SerializeField] private Image _fixedJoystickImage;
@@ -29,6 +33,8 @@ public class PlayerHealth : MonoBehaviour
 
     private Vignette _vignette;
     private float _currentVignetteValue;
+
+    public static int HeartsAmount = 5;
 
     public bool Alive = true;
     public bool Chase = false;
@@ -43,9 +49,20 @@ public class PlayerHealth : MonoBehaviour
     {
         //SavePlayerProgress.SaveEvent += SaveCurrentProgress;
 
+        GetSavedReferences();
+
         _volume.profile.TryGet(out _vignette);
         _normalVignette = _vignette.smoothness.value;
         IsHiding = false;
+
+        if(HeartsAmount <= 0)
+        {
+            if (UIManager.SmartphoneInput)
+            {
+                Cursor.lockState = CursorLockMode.None;
+            }
+            _endGamePanel.SetActive(true);
+        }
 
         //GetSavedReferences();
     }
@@ -131,18 +148,42 @@ public class PlayerHealth : MonoBehaviour
     {
         _diedTransitionAnimator.SetBool("isEnded", true);
         yield return new WaitForSeconds(2f);
+        _heartsAnimator.SetTrigger("Start");
 
-        if(_savePlayerProgress != null)
+        var heartsAmountbeforeDeath = HeartsAmount + 1;
+
+        _heartsAmountText.text = heartsAmountbeforeDeath.ToString();
+        _heartsAmountText.gameObject.SetActive(true);
+
+        yield return new WaitForSeconds(1.5f);
+        _heartsAnimator.SetTrigger("Kill");
+        _heartsAmountText.text = HeartsAmount.ToString();
+
+        yield return new WaitForSeconds(3f);
+
+        if(HeartsAmount != 0)
         {
-            _savePlayerProgress.SaveCurrentScene();
-        }
+            if (_savePlayerProgress != null)
+            {
+                _savePlayerProgress.SaveCurrentScene();
+            }
 
-        if (UIManager.SmartphoneInput)
+            if (UIManager.SmartphoneInput)
+            {
+                //AppodealManager.ShowInterAds();
+            }
+
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name, LoadSceneMode.Single);
+        }
+        else if(HeartsAmount <= 0)
         {
-            //AppodealManager.ShowInterAds();
-        }
+            if (UIManager.SmartphoneInput)
+            {
+                Cursor.lockState = CursorLockMode.None;
+            }
 
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name, LoadSceneMode.Single);
+            _endGamePanel.SetActive(true);
+        }
     }
 
     private IEnumerator EnableFPController()
@@ -158,6 +199,18 @@ public class PlayerHealth : MonoBehaviour
         {
             _savePlayerProgress.SaveCurrentScene();
         }
+
+        if(HeartsAmount != 0)
+        {
+            HeartsAmount -= 1;
+            SaveCurrentProgress();
+        }
+        else
+        {
+            MenuManager.LoadProgress = false;
+        }
+
+
         StartCoroutine(Timer());
     }
 
@@ -195,25 +248,25 @@ public class PlayerHealth : MonoBehaviour
         }
     }
 
-    private void SaveCurrentProgress()
+    public static void SetHeartsAmount(int amount)
     {
-        var writer = QuickSaveWriter.Create("Player");
-        writer.Write("PlayerPosition", this.transform.position);
-        writer.Write("PlayerRotation", this.transform.rotation);
+        HeartsAmount = amount;
+        SaveCurrentProgress();
+    }
+
+    public static void SaveCurrentProgress()
+    {
+        var writer = QuickSaveWriter.Create("PlayerHealth");
+
+        writer.Write("HeartsAmount", HeartsAmount);
+
         writer.Commit();
     }
 
-    private void GetSavedReferences()
+    public void GetSavedReferences()
     {
-        var reader = QuickSaveReader.Create("Player");
+        var reader = QuickSaveReader.Create("PlayerHealth");
 
-
-        if(reader.Read<Vector3>("PlayerPosition") != null)
-        {
-            this.transform.position = reader.Read<Vector3>("PlayerPosition");
-            Debug.Log("Gotcha" + reader.Read<Vector3>("PlayerPosition"));
-            this.transform.rotation = reader.Read<Quaternion>("PlayerRotation");
-            StartCoroutine(EnableFPController());
-        }
+        HeartsAmount = reader.Read<int>("HeartsAmount");
     }
 }

@@ -21845,6 +21845,9 @@ MonoBehaviour:
   _changeSpeed: 0.5
   _musicManager: {fileID: 7476600973049947275}
   _diedTransitionAnimator: {fileID: 1533908005}
+  _heartsAnimator: {fileID: 0}
+  _heartsAmountText: {fileID: 0}
+  _endGamePanel: {fileID: 0}
   _savePlayerProgress: {fileID: 0}
   _fixedJoystickImage: {fileID: 0}
   _fixedJoystickImageHandle: {fileID: 0}

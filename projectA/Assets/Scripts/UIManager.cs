@@ -72,8 +72,11 @@ public class UIManager : MonoBehaviour
 
     private void OnApplicationPause(bool pause)
     {
-        SetActivePause(true);
-        _diedCanvas.SetActive(false);
+        if (SmartphoneInput)
+        {
+            SetActivePause(true);
+            _diedCanvas.SetActive(false);
+        }
     }
 
     private IEnumerator LoadSceneAsync(int sceneId)
@@ -144,8 +147,10 @@ public class UIManager : MonoBehaviour
         {
             if (state)
                 Cursor.lockState = CursorLockMode.None;
-            else
+            else if(PlayerHealth.HeartsAmount > 0)
+            {
                 Cursor.lockState = CursorLockMode.Locked;
+            }
 
             Cursor.visible = state;
         }
