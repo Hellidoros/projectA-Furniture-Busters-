@@ -537,7 +537,7 @@ public class Monster : MonoBehaviour
             //Hunt
             if(_state == "hunt")
             {
-                if(_nav.remainingDistance <= _nav.stoppingDistance && !_nav.pathPending)
+                if(_nav.remainingDistance <= _nav.stoppingDistance && !_nav.pathPending || _player.GetComponent<PlayerHealth>().IsHiding)
                 {
                     _nav.speed = _simpleSpeed;
                     _animator.speed = _simpleSpeed;
