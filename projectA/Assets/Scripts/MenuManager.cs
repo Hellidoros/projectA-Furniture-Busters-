@@ -46,7 +46,7 @@ public class MenuManager : MonoBehaviour
 
         switch (SettingMenu.LanguageInt)
         {
-            case 0:
+            case 0: //English
                 _continueText.text = "CONTINUE";
                 _startText.text = "START NEW GAME";
                 _optionText.text = "OPTIONS";
@@ -59,7 +59,7 @@ public class MenuManager : MonoBehaviour
                 _playText.text = "PLAY";
                 break;
 
-            case 1:
+            case 1: //Russian
                 _continueText.text = "ПРОДОЛЖИТЬ";
                 _startText.text = "НОВАЯ ИГРА";
                 _optionText.text = "НАСТРОЙКИ";
@@ -70,6 +70,102 @@ public class MenuManager : MonoBehaviour
                 _normalText.text = "СРЕДНЯЯ";
                 _hardText.text = "СЛОЖНАЯ";
                 _playText.text = "ИГРАТЬ";
+                break;
+            case 3: //Spanish
+                _continueText.text = "CONTINÚE";
+                _startText.text = "NUEVO JUEGO";
+                _optionText.text = "CONFIGURACIÓN";
+                _exitText.text = "OUT";
+
+                _difficultyText.text = "CONECTAR";
+                _easyText.text = "FÁCIL";
+                _normalText.text = "MEDIO";
+                _hardText.text = "CONECTAR";
+                _playText.text = "PLAY";
+                break;
+            case 4: //German
+                _continueText.text = "WEITERGEHEN";
+                _startText.text = "NEUES SPIEL";
+                _optionText.text = "EINSTELLUNGEN";
+                _exitText.text = "EXIT";
+
+                _difficultyText.text = "KONFIGURATION";
+                _easyText.text = "EASY";
+                _normalText.text = "MEDIUM";
+                _hardText.text = "ADVANCED";
+                _playText.text = "SPIELEN";
+                break;
+            case 5: //Japanese
+                _continueText.text = "コンティニュー";
+                _startText.text = "ニューゲーム";
+                _optionText.text = "設定";
+                _exitText.text = "エグジット";
+
+                _difficultyText.text = "アドバンスド";
+                _easyText.text = "EASY";
+                _normalText.text = "MEDIUM";
+                _hardText.text = "アドバンスド";
+                _playText.text = "プレイ";
+                break;
+            case 6: //Portugese Brasilian
+                _continueText.text = "CONTINUA";
+                _startText.text = "NOVO JOGO";
+                _optionText.text = "SETTINGS";
+                _exitText.text = "SAÍDA";
+
+                _difficultyText.text = "AVANÇADO";
+                _easyText.text = "FÁCIL";
+                _normalText.text = "MÉDIO";
+                _hardText.text = "AVANÇADO";
+                _playText.text = "JOGUE";
+                break;
+            case 7: //Korean
+                _continueText.text = "계속";
+                _startText.text = "새로운 게임";
+                _optionText.text = "설정";
+                _exitText.text = "EXIT";
+
+                _difficultyText.text = "고급";
+                _easyText.text = "쉬운";
+                _normalText.text = "중간";
+                _hardText.text = "고급";
+                _playText.text = "플레이";
+                break;
+            case 8: //Indonesian
+                _continueText.text = "LANJUTKAN";
+                _startText.text = "PERMAINAN BARU";
+                _optionText.text = "PENGATURAN";
+                _exitText.text = "PENGATURAN";
+
+                _difficultyText.text = "LANJUTAN";
+                _easyText.text = "MUDAH";
+                _normalText.text = "SEDANG";
+                _hardText.text = "LANJUTAN";
+                _playText.text = "BERMAIN";
+                break;
+            case 9: //Chinese easy
+                _continueText.text = "继续";
+                _startText.text = "新游戏";
+                _optionText.text = "设置";
+                _exitText.text = "退出";
+
+                _difficultyText.text = "高级";
+                _easyText.text = "简单";
+                _normalText.text = "中等";
+                _hardText.text = "高级";
+                _playText.text = "玩耍";
+                break;
+            case 10: // Thai
+                _continueText.text = "ดำเนินต่อ";
+                _startText.text = "เกมส์ใหม่";
+                _optionText.text = "การตั้งค่า";
+                _exitText.text = "ออกจากระบบ";
+
+                _difficultyText.text = "ความซับซ้อน";
+                _easyText.text = "ง่าย";
+                _normalText.text = "เฉลี่ย";
+                _hardText.text = "ซับซ้อน";
+                _playText.text = "เล่น";
                 break;
         }
     }
