@@ -224,7 +224,7 @@ public class SettingMenu : MonoBehaviour
     {
         switch (LanguageInt)
         {
-            case 0: //English
+            case 0: // English
                 _settingsText.text = "SETTINGS";
                 _languageText.text = "LANGUAGE";
                 _graphicsText.text = "GRAPHICS";
@@ -238,7 +238,7 @@ public class SettingMenu : MonoBehaviour
                     _resolutionText.text = "RESOLUTION";
                 }
                 break;
-            case 1: //Russian
+            case 1: // Russian
                 _settingsText.text = "НАСТРОЙКИ";
                 _languageText.text = "ЯЗЫК";
                 _graphicsText.text = "ГРАФИКА";
@@ -252,7 +252,118 @@ public class SettingMenu : MonoBehaviour
                     _resolutionText.text = "РАЗРЕШЕНИЕ";
                 }
                 break;
+            case 3: // Spanish
+                _settingsText.text = "AJUSTES";
+                _languageText.text = "IDIOMA";
+                _graphicsText.text = "GRÁFICOS";
+                _musicText.text = "MÚSICA";
+                _soundText.text = "SONIDO";
+                _sensivityText.text = "SENSIVIDAD";
 
+                if (_fullscreenText != null)
+                {
+                    _fullscreenText.text = "PANTALLA COMPLETA";
+                    _resolutionText.text = "RESOLUCIÓN";
+                }
+                break;
+            case 4: // German
+                _settingsText.text = "EINSTELLUNGEN";
+                _languageText.text = "SPRACHE";
+                _graphicsText.text = "GRAFIK";
+                _musicText.text = "MUSIK";
+                _soundText.text = "TON"; _soundText.text = "TON";
+                _sensivityText.text = "SENSIVITY";
+
+                if (_fullscreenText != null)
+                {
+                    _fullscreenText.text = "VOLLBILDSCHIRM";
+                    _resolutionText.text = "AUFLÖSUNG";
+                }
+                break;
+            case 5: // Japanese
+                _settingsText.text = "設定";
+                _languageText.text = "LANGUAGE";
+                _graphicsText.text = "グラフィックス";
+                _musicText.text = "音楽";
+                _soundText.text = "サウンド";
+                _sensivityText.text = "感度";
+
+                if (_fullscreenText != null)
+                {
+                    _fullscreenText.text = "フルスクリーン";
+                    _resolutionText.text = "解像度";
+                }
+                break;
+            case 6: // Portugese brazilian
+                _settingsText.text = "SETTINGS";
+                _languageText.text = "LANGUAGE";
+                _graphicsText.text = "GRÁFICOS";
+                _musicText.text = "MÚSICA";
+                _soundText.text = "SOUND";
+                _sensivityText.text = "SENSIVIDADE";
+
+                if (_fullscreenText.text != null)
+                {
+                    _fullscreenText.text = "FULL SCREEN";
+                    _resolutionText.text = "RESOLUÇÃO";
+                }
+                break;
+            case 7: // Korean
+                _settingsText.text = "설정";
+                _languageText.text = "언어";
+                _graphicsText.text = "그래픽";
+                _musicText.text = "음악";
+                _soundText.text = "소리";
+                _sensivityText.text = "민감도";
+
+                if (_fullscreenText != null)
+                {
+                    _fullscreenText.text = "전체 화면";
+                    _resolutionText.text = "해상도";
+                }
+                break;
+            case 8: // Indonesian
+                _settingsText.text = "PENGATURAN";
+                _languageText.text = "BAHASA";
+                _graphicsText.text = "GRAFIK";
+                _musicText.text = "MUSIK";
+                _soundText.text = "SUARA";
+                _sensivityText.text = "SENSIVITAS";
+
+                if (_fullscreenText != null)
+                {
+                    _fullscreenText.text = "LAYAR PENUH";
+                    _resolutionText.text = "RESOLUSI";
+                }
+                break;
+            case 9: //Chinese
+                _settingsText.text = "设置";
+                _languageText.text = "语言";
+                _graphicsText.text = "图形";
+                _musicText.text = "音乐";
+                _soundText.text = "声音";
+                _sensivityText.text = "灵敏度";
+
+                if(_fullscreenText != null)
+                 {
+                    _fullscreenText.text = "全屏";
+                    _resolutionText.text = "决议";
+                }
+                break;
+            case 10: // Thai
+                _settingsText.text = "การตั้งค่า";
+                _languageText.text = "ภาษา";
+                _graphicsText.text = "กราฟิก";
+                _musicText.text = "เพลง";
+                _soundText.text = "เสียง";
+                _sensivityText.text = "ความละเอียดอ่อน";
+
+                if(_fullscreenText != null)
+                {
+                    _fullscreenText.text = "เต็มหน้าจอ";
+                    _resolutionText.text = "แก้ไข";
+                }
+                break;
         }
     }
 

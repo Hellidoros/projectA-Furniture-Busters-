@@ -9971,6 +9971,22 @@ MonoBehaviour:
       m_Image: {fileID: 0}
     - m_Text: "\u0420\u0443\u0441\u0441\u043A\u0438\u0439"
       m_Image: {fileID: 0}
+    - m_Text: ////****
+      m_Image: {fileID: 0}
+    - m_Text: "Espa\xF1ol"
+      m_Image: {fileID: 0}
+    - m_Text: Deutsch
+      m_Image: {fileID: 0}
+    - m_Text: "Portugu\xEAs"
+      m_Image: {fileID: 0}
+    - m_Text: "\uD55C\uAD6D\uC778"
+      m_Image: {fileID: 0}
+    - m_Text: Indonesia
+      m_Image: {fileID: 0}
+    - m_Text: "\u4E2D\u56FD\u4EBA"
+      m_Image: {fileID: 0}
+    - m_Text: "\u0E41\u0E1A\u0E1A\u0E44\u0E17\u0E22"
+      m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
@@ -9981,6 +9997,18 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: SettingMenu, Assembly-CSharp
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
