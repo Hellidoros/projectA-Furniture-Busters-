@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-6687612128487587786
+--- !u!114 &-6063811507194331693
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -13,31 +13,31 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 504, y: -40}
+  position: {x: 1347.5, y: 86}
   ports:
     keys:
     - entry
     - exit
     values:
     - _fieldName: entry
-      _node: {fileID: -6687612128487587786}
+      _node: {fileID: -6063811507194331693}
       _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       connections:
       - fieldName: exit
-        node: {fileID: -4953092588329623737}
+        node: {fileID: 8838420436679155320}
         reroutePoints: []
       _direction: 0
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
     - _fieldName: exit
-      _node: {fileID: -6687612128487587786}
+      _node: {fileID: -6063811507194331693}
       _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       connections:
       - fieldName: entry
-        node: {fileID: -4137108822593568134}
+        node: {fileID: 8874721238640384339}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
@@ -46,9 +46,9 @@ MonoBehaviour:
   entry: 0
   exit: 0
   speakerName: Helli
-  dialogueLine: 'H-hey... I''m really, really sorry... '
+  dialogueLine: "Adi\xF3s"
   eventName: 
-  sprite: {fileID: 21300000, guid: 3dff84f44824240ffb6347ec068aa771, type: 3}
+  sprite: {fileID: 21300000, guid: 1ef002f2c205943f281bdb51b779a3e6, type: 3}
   color: 
 --- !u!114 &-4953092588329623737
 MonoBehaviour:
@@ -87,7 +87,7 @@ MonoBehaviour:
         PublicKeyToken=b77a5c561934e089
       connections:
       - fieldName: entry
-        node: {fileID: -6687612128487587786}
+        node: {fileID: 531550873280038229}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
@@ -96,11 +96,11 @@ MonoBehaviour:
   entry: 0
   exit: 0
   speakerName: Helli
-  dialogueLine: '... '
+  dialogueLine: "Quer\xEDa hacerlo r\xE1pido. "
   eventName: 
-  sprite: {fileID: 21300000, guid: 4f1239d418ebb49b9b3fc277059097aa, type: 3}
+  sprite: {fileID: 21300000, guid: bdabb7c567c8943a08de6521c10c8356, type: 3}
   color: 
---- !u!114 &-4137108822593568134
+--- !u!114 &-3045496858990894513
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -113,31 +113,31 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 768.5, y: 75}
+  position: {x: 808, y: -72}
   ports:
     keys:
     - entry
     - exit
     values:
     - _fieldName: entry
-      _node: {fileID: -4137108822593568134}
+      _node: {fileID: -3045496858990894513}
       _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       connections:
       - fieldName: exit
-        node: {fileID: -6687612128487587786}
+        node: {fileID: 531550873280038229}
         reroutePoints: []
       _direction: 0
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
     - _fieldName: exit
-      _node: {fileID: -4137108822593568134}
+      _node: {fileID: -3045496858990894513}
       _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       connections:
       - fieldName: entry
-        node: {fileID: 3703844861042718029}
+        node: {fileID: 8838420436679155320}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
@@ -146,9 +146,9 @@ MonoBehaviour:
   entry: 0
   exit: 0
   speakerName: Helli
-  dialogueLine: '...I just have to do it '
+  dialogueLine: "Todo lo que hice fue s\xF3lo por la familia.  "
   eventName: 
-  sprite: {fileID: 21300000, guid: 4f1239d418ebb49b9b3fc277059097aa, type: 3}
+  sprite: {fileID: 21300000, guid: ef9b419b5985b4bf7837c27a07254c09, type: 3}
   color: 
 --- !u!114 &-550359691807489533
 MonoBehaviour:
@@ -196,9 +196,9 @@ MonoBehaviour:
   entry: 0
   exit: 0
   speakerName: Helli
-  dialogueLine: 'O-oh? '
+  dialogueLine: 'Siento haberte dado esperanzas... '
   eventName: 
-  sprite: {fileID: 21300000, guid: 3dff84f44824240ffb6347ec068aa771, type: 3}
+  sprite: {fileID: 21300000, guid: 05d70a76dcf574986a0ae59bc58ead69, type: 3}
   color: 
 --- !u!114 &11400000
 MonoBehaviour:
@@ -210,18 +210,69 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1c7f8b053a6e04dba95b5fe50704a774, type: 3}
-  m_Name: StartHelli Dialogue Graph
+  m_Name: SpanishEndOfDemoDialogue 1
   m_EditorClassIdentifier: 
   nodes:
   - {fileID: 2118629031450932263}
   - {fileID: -550359691807489533}
   - {fileID: 1853683903811914520}
   - {fileID: -4953092588329623737}
-  - {fileID: 3461726882368967690}
-  - {fileID: -6687612128487587786}
-  - {fileID: -4137108822593568134}
-  - {fileID: 3703844861042718029}
-  current: {fileID: 0}
+  - {fileID: 531550873280038229}
+  - {fileID: 8874721238640384339}
+  - {fileID: -3045496858990894513}
+  - {fileID: 8838420436679155320}
+  - {fileID: -6063811507194331693}
+  current: {fileID: 8874721238640384339}
+--- !u!114 &531550873280038229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30c6b507580b649cab1f1269570b6648, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 552, y: -120}
+  ports:
+    keys:
+    - entry
+    - exit
+    values:
+    - _fieldName: entry
+      _node: {fileID: 531550873280038229}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: exit
+        node: {fileID: -4953092588329623737}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: exit
+      _node: {fileID: 531550873280038229}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: -3045496858990894513}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  entry: 0
+  exit: 0
+  speakerName: Helli
+  dialogueLine: "Quer\xEDa que murieras sin dolor.  "
+  eventName: 
+  sprite: {fileID: 21300000, guid: ef9b419b5985b4bf7837c27a07254c09, type: 3}
+  color: 
 --- !u!114 &1853683903811914520
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -268,9 +319,9 @@ MonoBehaviour:
   entry: 0
   exit: 0
   speakerName: Helli
-  dialogueLine: 'You w-woke up...!? '
+  dialogueLine: '...Pero no puedo dejar que te vayas '
   eventName: 
-  sprite: {fileID: 21300000, guid: 4f1239d418ebb49b9b3fc277059097aa, type: 3}
+  sprite: {fileID: 21300000, guid: ef9b419b5985b4bf7837c27a07254c09, type: 3}
   color: 
 --- !u!114 &2118629031450932263
 MonoBehaviour:
@@ -303,39 +354,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   exit: 0
---- !u!114 &3461726882368967690
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c060897c44c0a4f3cadfbbcac602e260, type: 3}
-  m_Name: End
-  m_EditorClassIdentifier: 
-  graph: {fileID: 11400000}
-  position: {x: 1384, y: 168}
-  ports:
-    keys:
-    - entry
-    values:
-    - _fieldName: entry
-      _node: {fileID: 3461726882368967690}
-      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: exit
-        node: {fileID: 3703844861042718029}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-  entry: 0
-  eventName: NextScene
---- !u!114 &3703844861042718029
+--- !u!114 &8838420436679155320
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -348,31 +367,31 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 1036.5, y: 171}
+  position: {x: 1064, y: -40}
   ports:
     keys:
     - entry
     - exit
     values:
     - _fieldName: entry
-      _node: {fileID: 3703844861042718029}
+      _node: {fileID: 8838420436679155320}
       _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       connections:
       - fieldName: exit
-        node: {fileID: -4137108822593568134}
+        node: {fileID: -3045496858990894513}
         reroutePoints: []
       _direction: 0
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
     - _fieldName: exit
-      _node: {fileID: 3703844861042718029}
+      _node: {fileID: 8838420436679155320}
       _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       connections:
       - fieldName: entry
-        node: {fileID: 3461726882368967690}
+        node: {fileID: -6063811507194331693}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
@@ -381,7 +400,39 @@ MonoBehaviour:
   entry: 0
   exit: 0
   speakerName: Helli
-  dialogueLine: 'Please, forgive me '
+  dialogueLine: '... '
   eventName: 
-  sprite: {fileID: 21300000, guid: 3dff84f44824240ffb6347ec068aa771, type: 3}
+  sprite: {fileID: 21300000, guid: bdabb7c567c8943a08de6521c10c8356, type: 3}
   color: 
+--- !u!114 &8874721238640384339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c060897c44c0a4f3cadfbbcac602e260, type: 3}
+  m_Name: End
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1560, y: -40}
+  ports:
+    keys:
+    - entry
+    values:
+    - _fieldName: entry
+      _node: {fileID: 8874721238640384339}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: exit
+        node: {fileID: -6063811507194331693}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  entry: 0
+  eventName: StartMonsterAnimation

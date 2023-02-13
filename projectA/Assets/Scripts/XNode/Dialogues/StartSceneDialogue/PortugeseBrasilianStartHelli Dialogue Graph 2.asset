@@ -46,7 +46,7 @@ MonoBehaviour:
   entry: 0
   exit: 0
   speakerName: Helli
-  dialogueLine: 'H-hey... I''m really, really sorry... '
+  dialogueLine: 'H-hey... Eu realmente, realmente sinto muito... '
   eventName: 
   sprite: {fileID: 21300000, guid: 3dff84f44824240ffb6347ec068aa771, type: 3}
   color: 
@@ -146,7 +146,7 @@ MonoBehaviour:
   entry: 0
   exit: 0
   speakerName: Helli
-  dialogueLine: '...I just have to do it '
+  dialogueLine: "...eu s\xF3 tenho que fazer isso "
   eventName: 
   sprite: {fileID: 21300000, guid: 4f1239d418ebb49b9b3fc277059097aa, type: 3}
   color: 
@@ -210,7 +210,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1c7f8b053a6e04dba95b5fe50704a774, type: 3}
-  m_Name: HispanicStartHelli Dialogue Graph 1
+  m_Name: PortugeseBrasilianStartHelli Dialogue Graph 2
   m_EditorClassIdentifier: 
   nodes:
   - {fileID: 2118629031450932263}
@@ -268,7 +268,7 @@ MonoBehaviour:
   entry: 0
   exit: 0
   speakerName: Helli
-  dialogueLine: 'You w-woke up...!? '
+  dialogueLine: "Voc\xEA despertou...!? "
   eventName: 
   sprite: {fileID: 21300000, guid: 4f1239d418ebb49b9b3fc277059097aa, type: 3}
   color: 
@@ -381,7 +381,7 @@ MonoBehaviour:
   entry: 0
   exit: 0
   speakerName: Helli
-  dialogueLine: 'Please, forgive me '
+  dialogueLine: 'Por favor, me perdoe '
   eventName: 
   sprite: {fileID: 21300000, guid: 3dff84f44824240ffb6347ec068aa771, type: 3}
   color: 
