@@ -1,0 +1,1105 @@
+Unity Editor version:    2020.3.24f1 (79c78de19888)
+Branch:                  2020.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.6 (Build 21G115)
+Darwin version:          21.6.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: NO
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.24f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/eldar/MyUnityGames/projectA/Git/projectA
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+58452
+Successfully changed project path to: /Users/eldar/MyUnityGames/projectA/Git/projectA
+/Users/eldar/MyUnityGames/projectA/Git/projectA
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 127.28 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.24f1 (79c78de19888)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.24f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/eldar/MyUnityGames/projectA/Git/projectA/Assets
+GfxDevice: creating device client; threaded=0
+2023-02-13 16:25:18.634 Unity[27224:1280752] Color LCD preferred device: Intel(R) UHD Graphics 630 (low power)
+2023-02-13 16:25:18.634 Unity[27224:1280752] Metal devices available: 2
+2023-02-13 16:25:18.634 Unity[27224:1280752] 0: AMD Radeon Pro 5500M (high power)
+2023-02-13 16:25:18.634 Unity[27224:1280752] 1: Intel(R) UHD Graphics 630 (low power)
+2023-02-13 16:25:18.635 Unity[27224:1280752] Using device AMD Radeon Pro 5500M (high power)
+Initializing Metal device caps: AMD Radeon Pro 5500M
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.24f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.24f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.24f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56224
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.24f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.24f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.24f1/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.000503 seconds.
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 117.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.677 seconds
+Domain Reload Profiling:
+	ReloadAssembly (678ms)
+		BeginReloadAssembly (37ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (566ms)
+			LoadAssemblies (37ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (175ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (272ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (118ms)
+				BeforeProcessingInitializeOnLoad (34ms)
+				ProcessInitializeOnLoadAttributes (88ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002850 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 103.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.097 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2099ms)
+		BeginReloadAssembly (144ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (1895ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (461ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (80ms)
+			SetupLoadedEditorAssemblies (1062ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (104ms)
+				BeforeProcessingInitializeOnLoad (115ms)
+				ProcessInitializeOnLoadAttributes (695ms)
+				ProcessInitializeOnLoadMethodAttributes (143ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Validating Project structure ... 0.026905 seconds.
+Shader import version has changed; will reimport all shaders...
+Upgrading shader files ...0.050911 seconds.
+Application.AssetDatabase Initial Script Refresh Start
+RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
+RefreshProfiler: Total: 0.000ms
+Application.AssetDatabase Initial Script Refresh End
+Application.AssetDatabase.Refresh Start
+Application.AssetDatabase.Refresh End
+RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.24f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Initializing Unity extensions:
+2023-02-13 16:25:23.313 Unity[27224:1280752] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7fb2190a0980 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2023-02-13 16:25:23.318 Unity[27224:1280752] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7fb220444d00 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+========================================================================
+Worker process is ready to serve import requests
+Refreshing native plugins compatible for Editor in 1.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5296 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 378.6 MB.
+System memory in use after: 378.2 MB.
+
+Unloading 490 unused Assets to reduce memory usage. Loaded Objects now: 5752.
+Total: 8.018417 ms (FindLiveObjects: 0.549121 ms CreateObjectMapping: 0.302778 ms MarkObjects: 6.908681 ms  DeleteObjects: 0.256990 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/MenuScene.unity
+  artifactKey: Guid(3c59dbbcc52bb40b5b5ff99e58d74a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuScene.unity using Guid(3c59dbbcc52bb40b5b5ff99e58d74a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbf1c562a48f7763734f3ef0a777cc3b') in 0.019989 seconds 
+  Import took 0.029669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 72.829874 seconds.
+  path: Assets/Sounds/1ambient_80.mp3
+  artifactKey: Guid(0c93ff5b1b50f415489473985f46dd46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/1ambient_80.mp3 using Guid(0c93ff5b1b50f415489473985f46dd46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7790b26203d1dfd15b67605a2ced6e5') in 1.203412 seconds 
+  Import took 1.215736 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Sounds/Fallin_down.mp3
+  artifactKey: Guid(93000d4e522f64b18b35e855337b1d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fallin_down.mp3 using Guid(93000d4e522f64b18b35e855337b1d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc436a113a0d6e6f21ed58b809f9e4d3') in 0.014655 seconds 
+  Import took 0.023417 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Sounds/Piano one note.wav
+  artifactKey: Guid(d9b791488fcc24d1db31ccf487d6b201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Piano one note.wav using Guid(d9b791488fcc24d1db31ccf487d6b201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96935ed1f8374a03db1411b2a307b6a3') in 1.124263 seconds 
+  Import took 1.136343 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Sounds/Monster-Footsteps-A-www.fesliyanstudios.com.mp3
+  artifactKey: Guid(4f39088275ec74ba0b382b4995b6d4a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Monster-Footsteps-A-www.fesliyanstudios.com.mp3 using Guid(4f39088275ec74ba0b382b4995b6d4a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0994d4629171ba79c19a050354f5ef8b') in 0.015127 seconds 
+  Import took 0.023980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Sounds/gunShoot.mp3
+  artifactKey: Guid(4538dc59d40bd45938ac49cfbe01c4fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/gunShoot.mp3 using Guid(4538dc59d40bd45938ac49cfbe01c4fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fab469bee37eddad4e7c087c8418e478') in 0.011940 seconds 
+  Import took 0.022158 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Sounds/MotherFootstep.mp3
+  artifactKey: Guid(2bfd3e110d1f844ae93240049cffd9b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/MotherFootstep.mp3 using Guid(2bfd3e110d1f844ae93240049cffd9b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e807e41b9e5cecd70f209b40a7f30f09') in 0.015073 seconds 
+  Import took 0.025112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Sounds/MotherFootstep2.mp3
+  artifactKey: Guid(b9c7f7ac29e3348d0a6c5da142884f35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/MotherFootstep2.mp3 using Guid(b9c7f7ac29e3348d0a6c5da142884f35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '526fd80a52ca052c4850278e66501447') in 0.013312 seconds 
+  Import took 0.024833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Sounds/moment s cladbishem - Scolex .wav
+  artifactKey: Guid(ef148ebce6e5147e1b73d4fa6902f2d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/moment s cladbishem - Scolex .wav using Guid(ef148ebce6e5147e1b73d4fa6902f2d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c68516c819856afef8330936d0faf93d') in 0.011470 seconds 
+  Import took 0.022543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Sounds/Monster Growl.mp3
+  artifactKey: Guid(64384665adc524497a0c5d183fed24a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Monster Growl.mp3 using Guid(64384665adc524497a0c5d183fed24a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '106309ad14208521a1738568956ef647') in 0.012056 seconds 
+  Import took 0.020414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Sounds/ScaryAmbient_m-murray__devious-theme.mp3
+  artifactKey: Guid(2109e6c31eb2c4b0fa1e0ae15533e207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/ScaryAmbient_m-murray__devious-theme.mp3 using Guid(2109e6c31eb2c4b0fa1e0ae15533e207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b4e8ca28299780086f695970b645194') in 0.017313 seconds 
+  Import took 0.027527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Sounds/TeleportSound.wav
+  artifactKey: Guid(ef7146b1698cf403c9cc22c02d0a43d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/TeleportSound.wav using Guid(ef7146b1698cf403c9cc22c02d0a43d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e653db4de68b5515458ce402275ae85d') in 0.012174 seconds 
+  Import took 0.021676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Sounds/Monster_near_sound.mp3
+  artifactKey: Guid(37edc70676f9144d48dbc9e797dab886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Monster_near_sound.mp3 using Guid(37edc70676f9144d48dbc9e797dab886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0247e73ed2bb7007bc6f412d56b8b71a') in 0.011645 seconds 
+  Import took 0.020323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Sounds/monster-roar-6985.mp3
+  artifactKey: Guid(5269c3795a76f4fa9bdc7ae4c22145d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/monster-roar-6985.mp3 using Guid(5269c3795a76f4fa9bdc7ae4c22145d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22bca885c793f900672259a482437769') in 0.013381 seconds 
+  Import took 0.024148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Sounds/HitDramatic.flac
+  artifactKey: Guid(58bbf28bbe77c4ffe896c92a45cfc7c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/HitDramatic.flac using Guid(58bbf28bbe77c4ffe896c92a45cfc7c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47a97fee1992ccfc5f8edf34ac034263') in 0.519852 seconds 
+  Import took 0.531256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Sounds/heavy-dark-sound-7545.mp3
+  artifactKey: Guid(57772b66640e948fda19214eb7ccb20d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/heavy-dark-sound-7545.mp3 using Guid(57772b66640e948fda19214eb7ccb20d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebdb174e1aa56ea644797e9acbb4ef96') in 0.012726 seconds 
+  Import took 0.021074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Sounds/HeavyBreath.wav
+  artifactKey: Guid(a72556c51fef3489a94b09e689246f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/HeavyBreath.wav using Guid(a72556c51fef3489a94b09e689246f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fdc5a3a93ad75a2ee31f5beed9e5daa') in 0.009841 seconds 
+  Import took 0.018217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.408534 seconds.
+  path: Assets/Scripts/XNode/Dialogues/StartSceneDialogue/SpanishStartHelli Dialogue Graph 1.asset
+  artifactKey: Guid(de89379297c944f3187874a163d18aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XNode/Dialogues/StartSceneDialogue/SpanishStartHelli Dialogue Graph 1.asset using Guid(de89379297c944f3187874a163d18aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '228c1862ddd310a9fa80e932f3e4c398') in 0.735131 seconds 
+  Import took 0.746353 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 66.011021 seconds.
+  path: Assets/Scripts/XNode/Dialogues/StartSceneDialogue/SpanishStartHelli Dialogue Graph 1.asset
+  artifactKey: Guid(de89379297c944f3187874a163d18aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XNode/Dialogues/StartSceneDialogue/SpanishStartHelli Dialogue Graph 1.asset using Guid(de89379297c944f3187874a163d18aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dad7d4cd7db4ceda62a47489c44d5ebf') in 0.007068 seconds 
+  Import took 0.017428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.566534 seconds.
+  path: Assets/Scripts/XNode/Dialogues/StartSceneDialogue/SpanishStartHelli Dialogue Graph 1.asset
+  artifactKey: Guid(de89379297c944f3187874a163d18aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XNode/Dialogues/StartSceneDialogue/SpanishStartHelli Dialogue Graph 1.asset using Guid(de89379297c944f3187874a163d18aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ead1e9f56f7b20fada0e20a3bd1b08ed') in 0.007278 seconds 
+  Import took 0.018053 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.183308 seconds.
+  path: Assets/Scripts/XNode/Dialogues/StartSceneDialogue/SpanishStartHelli Dialogue Graph 1.asset
+  artifactKey: Guid(de89379297c944f3187874a163d18aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XNode/Dialogues/StartSceneDialogue/SpanishStartHelli Dialogue Graph 1.asset using Guid(de89379297c944f3187874a163d18aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3842db751d7d10d5d8d6170d2e6c02a7') in 0.006853 seconds 
+  Import took 0.018652 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.504311 seconds.
+  path: Assets/Scripts/XNode/Dialogues/StartSceneDialogue/SpanishStartHelli Dialogue Graph 2.asset
+  artifactKey: Guid(207ccc42871ca407da4eaf9e31dc97c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XNode/Dialogues/StartSceneDialogue/SpanishStartHelli Dialogue Graph 2.asset using Guid(207ccc42871ca407da4eaf9e31dc97c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eefbfdc4e7125a013d151a5f77a91171') in 0.008067 seconds 
+  Import took 0.017381 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010839 seconds.
+  path: Assets/Scripts/XNode/Dialogues/StartSceneDialogue/SpanishStartHelli Dialogue Graph 1.asset
+  artifactKey: Guid(de89379297c944f3187874a163d18aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XNode/Dialogues/StartSceneDialogue/SpanishStartHelli Dialogue Graph 1.asset using Guid(de89379297c944f3187874a163d18aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4132315457b56953587c6173aec5a29') in 0.006566 seconds 
+  Import took 0.016015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.405826 seconds.
+  path: Assets/Scripts/XNode/Dialogues/StartSceneDialogue/GermanStartHelli Dialogue Graph.asset
+  artifactKey: Guid(207ccc42871ca407da4eaf9e31dc97c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XNode/Dialogues/StartSceneDialogue/GermanStartHelli Dialogue Graph.asset using Guid(207ccc42871ca407da4eaf9e31dc97c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '528c23980dd0b95876b1c283f341cdf7') in 0.007905 seconds 
+  Import took 0.018428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 57.209303 seconds.
+  path: Assets/Scripts/XNode/Dialogues/StartSceneDialogue/StartHelli Dialogue Graph 1.asset
+  artifactKey: Guid(f0b41cc11ce07427ea5bb29434cac41f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XNode/Dialogues/StartSceneDialogue/StartHelli Dialogue Graph 1.asset using Guid(f0b41cc11ce07427ea5bb29434cac41f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a08dd87676ba999523b52087de1f8ed1') in 0.008030 seconds 
+  Import took 0.018378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.006893 seconds.
+  path: Assets/Scripts/XNode/Dialogues/StartSceneDialogue/GermanStartHelli Dialogue Graph.asset
+  artifactKey: Guid(991ac06043cc94163a9c8171dc654848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XNode/Dialogues/StartSceneDialogue/GermanStartHelli Dialogue Graph.asset using Guid(991ac06043cc94163a9c8171dc654848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58bc053a75a6f3d33507a1bae1446136') in 0.007718 seconds 
+  Import took 0.017558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.827200 seconds.
+  path: Assets/Scripts/XNode/Dialogues/StartSceneDialogue/GermanStartHelli Dialogue Graph.asset
+  artifactKey: Guid(991ac06043cc94163a9c8171dc654848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XNode/Dialogues/StartSceneDialogue/GermanStartHelli Dialogue Graph.asset using Guid(991ac06043cc94163a9c8171dc654848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e557f666f92d94d9640fcaa3ebee556') in 0.006919 seconds 
+  Import took 0.016018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.986800 seconds.
+  path: Assets/Scripts/XNode/Dialogues/StartSceneDialogue/GermanStartHelli Dialogue Graph.asset
+  artifactKey: Guid(991ac06043cc94163a9c8171dc654848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XNode/Dialogues/StartSceneDialogue/GermanStartHelli Dialogue Graph.asset using Guid(991ac06043cc94163a9c8171dc654848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7275b363f74dc700f85cb92d44401e4') in 0.006787 seconds 
+  Import took 0.016642 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.217598 seconds.
+  path: Assets/Scripts/XNode/Dialogues/StartSceneDialogue/GermanStartHelli Dialogue Graph.asset
+  artifactKey: Guid(991ac06043cc94163a9c8171dc654848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XNode/Dialogues/StartSceneDialogue/GermanStartHelli Dialogue Graph.asset using Guid(991ac06043cc94163a9c8171dc654848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '264c13e4ed06af18d17e4278e817387c') in 0.007346 seconds 
+  Import took 0.018985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.319370 seconds.
+  path: Assets/Scripts/XNode/Dialogues/StartSceneDialogue/GermanStartHelli Dialogue Graph.asset
+  artifactKey: Guid(991ac06043cc94163a9c8171dc654848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XNode/Dialogues/StartSceneDialogue/GermanStartHelli Dialogue Graph.asset using Guid(991ac06043cc94163a9c8171dc654848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b2c8e8b2e555c274c4ff708afe298a0') in 0.007370 seconds 
+  Import took 0.017351 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 75.347559 seconds.
+  path: Assets/Scripts/XNode/Dialogues/StartSceneDialogue/StartHelli Dialogue Graph 2.asset
+  artifactKey: Guid(e295be376b1b645b782b6f441b0725ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XNode/Dialogues/StartSceneDialogue/StartHelli Dialogue Graph 2.asset using Guid(e295be376b1b645b782b6f441b0725ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbb3e728d4283ca6f29304a33ca3e8af') in 0.007211 seconds 
+  Import took 0.016646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.611051 seconds.
+  path: Assets/Scripts/XNode/Dialogues/StartSceneDialogue/JapaneseStartHelli Dialogue Graph 2.asset
+  artifactKey: Guid(e295be376b1b645b782b6f441b0725ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XNode/Dialogues/StartSceneDialogue/JapaneseStartHelli Dialogue Graph 2.asset using Guid(e295be376b1b645b782b6f441b0725ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0462ec81336fe1f96727e965e41769b') in 0.007795 seconds 
+  Import took 0.017849 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.245968 seconds.
+  path: Assets/Scripts/XNode/Dialogues/StartSceneDialogue/JapaneseStartHelli Dialogue Graph 2.asset
+  artifactKey: Guid(e295be376b1b645b782b6f441b0725ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XNode/Dialogues/StartSceneDialogue/JapaneseStartHelli Dialogue Graph 2.asset using Guid(e295be376b1b645b782b6f441b0725ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc62b0c13a7673d94fada213c60bb20e') in 0.007458 seconds 
+  Import took 0.016548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.520819 seconds.
+  path: Assets/Scripts/XNode/Dialogues/StartSceneDialogue/JapaneseStartHelli Dialogue Graph 2.asset
+  artifactKey: Guid(e295be376b1b645b782b6f441b0725ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XNode/Dialogues/StartSceneDialogue/JapaneseStartHelli Dialogue Graph 2.asset using Guid(e295be376b1b645b782b6f441b0725ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bd1488e9309aa55d8e16bb2a756a554') in 0.007185 seconds 
+  Import took 0.018257 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.216246 seconds.
+  path: Assets/Scripts/XNode/Dialogues/StartSceneDialogue/JapaneseStartHelli Dialogue Graph 2.asset
+  artifactKey: Guid(e295be376b1b645b782b6f441b0725ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XNode/Dialogues/StartSceneDialogue/JapaneseStartHelli Dialogue Graph 2.asset using Guid(e295be376b1b645b782b6f441b0725ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6139cd90ddb70588bb22527026b818e3') in 0.008883 seconds 
+  Import took 0.020682 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.166337 seconds.
+  path: Assets/Scripts/XNode/Dialogues/StartSceneDialogue/JapaneseStartHelli Dialogue Graph 2.asset
+  artifactKey: Guid(e295be376b1b645b782b6f441b0725ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XNode/Dialogues/StartSceneDialogue/JapaneseStartHelli Dialogue Graph 2.asset using Guid(e295be376b1b645b782b6f441b0725ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '426778deff956b66b29757583aca7030') in 0.008871 seconds 
+  Import took 0.017831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.170521 seconds.
+  path: Assets/Scripts/XNode/Dialogues/StartSceneDialogue/JapaneseStartHelli Dialogue Graph 2.asset
+  artifactKey: Guid(e295be376b1b645b782b6f441b0725ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XNode/Dialogues/StartSceneDialogue/JapaneseStartHelli Dialogue Graph 2.asset using Guid(e295be376b1b645b782b6f441b0725ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2ec83ffcb4ff340ebab1ca4dfd35300') in 0.007913 seconds 
+  Import took 0.018835 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005508 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2023-02-13 16:35:20.577 Unity[27224:1280752] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7fb220441b40 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in /Users/eldar/MyUnityGames/projectA/projectA/Assets/xNode-1.8.0/Scripts/Editor/NodeEditorAssetModProcessor.cs:55 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:154 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:158)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 158)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.389 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2389ms)
+		BeginReloadAssembly (195ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (110ms)
+		EndReloadAssembly (2120ms)
+			LoadAssemblies (95ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (542ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (73ms)
+			SetupLoadedEditorAssemblies (1191ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (198ms)
+				ProcessInitializeOnLoadAttributes (826ms)
+				ProcessInitializeOnLoadMethodAttributes (158ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5062 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 384.4 MB.
+System memory in use after: 384.8 MB.
+
+Unloading 88 unused Assets to reduce memory usage. Loaded Objects now: 5763.
+Total: 8.343164 ms (FindLiveObjects: 0.498477 ms CreateObjectMapping: 0.288025 ms MarkObjects: 7.496398 ms  DeleteObjects: 0.059273 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 173.540977 seconds.
+  path: Assets/Scripts/XNode/Dialogues/MonsterDoor/MonsterDoor 1.asset
+  artifactKey: Guid(e9f9b1090d6c04d43a4cb0f1ddfb5935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XNode/Dialogues/MonsterDoor/MonsterDoor 1.asset using Guid(e9f9b1090d6c04d43a4cb0f1ddfb5935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55f1f1ac60ca1db12c16312fdd8835ce') in 0.025529 seconds 
+  Import took 0.037128 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Scripts/XNode/Dialogues/MonsterDoor/RussianMonsterDoor.asset
+  artifactKey: Guid(b9a81ff807f0f4bc8af38d955c3bd54c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XNode/Dialogues/MonsterDoor/RussianMonsterDoor.asset using Guid(b9a81ff807f0f4bc8af38d955c3bd54c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45198a0dc8fc8a71df83474bab9f9bd5') in 0.005766 seconds 
+  Import took 0.014057 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.299024 seconds.
+  path: Assets/Scripts/XNode/Dialogues/StartSceneDialogue/StartHelli Dialogue Graph 2.asset
+  artifactKey: Guid(7f35787578f7d44f88f232be6da05ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XNode/Dialogues/StartSceneDialogue/StartHelli Dialogue Graph 2.asset using Guid(7f35787578f7d44f88f232be6da05ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74c15fbead8b3f9c2bc61fa1f6f65df3') in 0.005841 seconds 
+  Import took 0.015840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.907984 seconds.
+  path: Assets/Scripts/XNode/Dialogues/StartSceneDialogue/PortugeseBrasilianStartHelli Dialogue Graph 2.asset
+  artifactKey: Guid(7f35787578f7d44f88f232be6da05ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XNode/Dialogues/StartSceneDialogue/PortugeseBrasilianStartHelli Dialogue Graph 2.asset using Guid(7f35787578f7d44f88f232be6da05ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f25a24de256ada49ed3c839d574a69e4') in 0.005209 seconds 
+  Import took 0.015575 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.962576 seconds.
+  path: Assets/Scripts/XNode/Dialogues/StartSceneDialogue/PortugeseBrasilianStartHelli Dialogue Graph 2.asset
+  artifactKey: Guid(7f35787578f7d44f88f232be6da05ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XNode/Dialogues/StartSceneDialogue/PortugeseBrasilianStartHelli Dialogue Graph 2.asset using Guid(7f35787578f7d44f88f232be6da05ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f9501e7b1aa9f7631fe5bef12b7fd81') in 0.005742 seconds 
+  Import took 0.017909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.133288 seconds.
+  path: Assets/Scripts/XNode/Dialogues/StartSceneDialogue/PortugeseBrasilianStartHelli Dialogue Graph 2.asset
+  artifactKey: Guid(7f35787578f7d44f88f232be6da05ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XNode/Dialogues/StartSceneDialogue/PortugeseBrasilianStartHelli Dialogue Graph 2.asset using Guid(7f35787578f7d44f88f232be6da05ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbc0e363566248f3f655fc1ebdce9362') in 0.006112 seconds 
+  Import took 0.015257 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.763068 seconds.
+  path: Assets/Scripts/XNode/Dialogues/StartSceneDialogue/PortugeseBrasilianStartHelli Dialogue Graph 2.asset
+  artifactKey: Guid(7f35787578f7d44f88f232be6da05ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XNode/Dialogues/StartSceneDialogue/PortugeseBrasilianStartHelli Dialogue Graph 2.asset using Guid(7f35787578f7d44f88f232be6da05ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5fdc35bcda005666f3080588644e451') in 0.005129 seconds 
+  Import took 0.014100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.726005 seconds.
+  path: Assets/Scripts/XNode/Dialogues/StartSceneDialogue/PortugeseBrasilianStartHelli Dialogue Graph 2.asset
+  artifactKey: Guid(7f35787578f7d44f88f232be6da05ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XNode/Dialogues/StartSceneDialogue/PortugeseBrasilianStartHelli Dialogue Graph 2.asset using Guid(7f35787578f7d44f88f232be6da05ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3364c32e93a7fdbc88d30d7b3effdcd0') in 0.004821 seconds 
+  Import took 0.013397 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.817282 seconds.
+  path: Assets/Scripts/XNode/Dialogues/StartSceneDialogue/StartHelli Dialogue Graph 2.asset
+  artifactKey: Guid(e2d472deb46214c14bb1b1f7b80418c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XNode/Dialogues/StartSceneDialogue/StartHelli Dialogue Graph 2.asset using Guid(e2d472deb46214c14bb1b1f7b80418c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a97e695adbabd08572ad09fcc7007a04') in 0.006108 seconds 
+  Import took 0.015995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.029639 seconds.
+  path: Assets/Scripts/XNode/Dialogues/StartSceneDialogue/KoreanStartHelli Dialogue Graph 2.asset
+  artifactKey: Guid(e2d472deb46214c14bb1b1f7b80418c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XNode/Dialogues/StartSceneDialogue/KoreanStartHelli Dialogue Graph 2.asset using Guid(e2d472deb46214c14bb1b1f7b80418c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4d0a0ea8394d2c93be91a34de85581e') in 0.006586 seconds 
+  Import took 0.016343 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.596235 seconds.
+  path: Assets/Scripts/XNode/Dialogues/StartSceneDialogue/KoreanStartHelli Dialogue Graph 2.asset
+  artifactKey: Guid(e2d472deb46214c14bb1b1f7b80418c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XNode/Dialogues/StartSceneDialogue/KoreanStartHelli Dialogue Graph 2.asset using Guid(e2d472deb46214c14bb1b1f7b80418c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5178eb3427474f7472650eef1a044378') in 0.005701 seconds 
+  Import took 0.014760 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.719700 seconds.
+  path: Assets/Scripts/XNode/Dialogues/StartSceneDialogue/KoreanStartHelli Dialogue Graph 2.asset
+  artifactKey: Guid(e2d472deb46214c14bb1b1f7b80418c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XNode/Dialogues/StartSceneDialogue/KoreanStartHelli Dialogue Graph 2.asset using Guid(e2d472deb46214c14bb1b1f7b80418c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a73060c51adc2e67221da62405307001') in 0.004832 seconds 
+  Import took 0.013383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.908088 seconds.
+  path: Assets/Scripts/XNode/Dialogues/StartSceneDialogue/KoreanStartHelli Dialogue Graph 2.asset
+  artifactKey: Guid(e2d472deb46214c14bb1b1f7b80418c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XNode/Dialogues/StartSceneDialogue/KoreanStartHelli Dialogue Graph 2.asset using Guid(e2d472deb46214c14bb1b1f7b80418c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0670b3ed910304c7995e58017a1a5b4') in 0.005541 seconds 
+  Import took 0.014721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.755152 seconds.
+  path: Assets/Scripts/XNode/Dialogues/StartSceneDialogue/KoreanStartHelli Dialogue Graph 2.asset
+  artifactKey: Guid(e2d472deb46214c14bb1b1f7b80418c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XNode/Dialogues/StartSceneDialogue/KoreanStartHelli Dialogue Graph 2.asset using Guid(e2d472deb46214c14bb1b1f7b80418c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6e1d9093cd56dc6180b91b0d92dd8ee') in 0.006068 seconds 
+  Import took 0.016725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.240047 seconds.
+  path: Assets/Scripts/XNode/Dialogues/StartSceneDialogue/KoreanStartHelli Dialogue Graph 2.asset
+  artifactKey: Guid(e2d472deb46214c14bb1b1f7b80418c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XNode/Dialogues/StartSceneDialogue/KoreanStartHelli Dialogue Graph 2.asset using Guid(e2d472deb46214c14bb1b1f7b80418c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5233a5b3847fb84aadcd04edfb2749f') in 0.005624 seconds 
+  Import took 0.015110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.736984 seconds.
+  path: Assets/Scripts/XNode/Dialogues/StartSceneDialogue/StartHelli Dialogue Graph 2.asset
+  artifactKey: Guid(6298c343f7a4240bd84a5642bfc349e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XNode/Dialogues/StartSceneDialogue/StartHelli Dialogue Graph 2.asset using Guid(6298c343f7a4240bd84a5642bfc349e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5c6ab1fe52fdd704e1c4c07bec4cb5a') in 0.006077 seconds 
+  Import took 0.015902 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.565500 seconds.
+  path: Assets/Scripts/XNode/Dialogues/StartSceneDialogue/IndonesianStartHelli Dialogue Graph 2.asset
+  artifactKey: Guid(6298c343f7a4240bd84a5642bfc349e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XNode/Dialogues/StartSceneDialogue/IndonesianStartHelli Dialogue Graph 2.asset using Guid(6298c343f7a4240bd84a5642bfc349e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '941a67f0dbcd79a5fb77d8afccf36a3c') in 0.007276 seconds 
+  Import took 0.017280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.187571 seconds.
+  path: Assets/Scripts/XNode/Dialogues/StartSceneDialogue/IndonesianStartHelli Dialogue Graph 2.asset
+  artifactKey: Guid(6298c343f7a4240bd84a5642bfc349e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XNode/Dialogues/StartSceneDialogue/IndonesianStartHelli Dialogue Graph 2.asset using Guid(6298c343f7a4240bd84a5642bfc349e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15e8714bd362b394d5ead0ac7f0e61f3') in 0.006211 seconds 
+  Import took 0.015338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.654536 seconds.
+  path: Assets/Scripts/XNode/Dialogues/StartSceneDialogue/IndonesianStartHelli Dialogue Graph 2.asset
+  artifactKey: Guid(6298c343f7a4240bd84a5642bfc349e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XNode/Dialogues/StartSceneDialogue/IndonesianStartHelli Dialogue Graph 2.asset using Guid(6298c343f7a4240bd84a5642bfc349e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3d0b84d9d9c4c094ddbf7d729772e6a') in 0.007192 seconds 
+  Import took 0.018882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.856451 seconds.
+  path: Assets/Scripts/XNode/Dialogues/StartSceneDialogue/IndonesianStartHelli Dialogue Graph 2.asset
+  artifactKey: Guid(6298c343f7a4240bd84a5642bfc349e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XNode/Dialogues/StartSceneDialogue/IndonesianStartHelli Dialogue Graph 2.asset using Guid(6298c343f7a4240bd84a5642bfc349e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c7cc1104275e910435db828792ee46e') in 0.005151 seconds 
+  Import took 0.014157 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.064195 seconds.
+  path: Assets/Scripts/XNode/Dialogues/StartSceneDialogue/StartHelli Dialogue Graph 2.asset
+  artifactKey: Guid(62103e1759aab479c8225117d5e1c09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XNode/Dialogues/StartSceneDialogue/StartHelli Dialogue Graph 2.asset using Guid(62103e1759aab479c8225117d5e1c09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '020aab8f4824cf25a4df113d35920a77') in 0.006019 seconds 
+  Import took 0.015892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008846 seconds.
+  path: Assets/Scripts/XNode/Dialogues/StartSceneDialogue/IndonesianStartHelli Dialogue Graph 2.asset
+  artifactKey: Guid(6298c343f7a4240bd84a5642bfc349e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XNode/Dialogues/StartSceneDialogue/IndonesianStartHelli Dialogue Graph 2.asset using Guid(6298c343f7a4240bd84a5642bfc349e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fd7c1f3e03eb6a8754c686d04100085') in 0.006263 seconds 
+  Import took 0.016949 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.883233 seconds.
+  path: Assets/Scripts/XNode/Dialogues/StartSceneDialogue/ChineseStartHelli Dialogue Graph 2.asset
+  artifactKey: Guid(62103e1759aab479c8225117d5e1c09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XNode/Dialogues/StartSceneDialogue/ChineseStartHelli Dialogue Graph 2.asset using Guid(62103e1759aab479c8225117d5e1c09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd865a54be12f4972a23ed94c85393cd3') in 0.007223 seconds 
+  Import took 0.017278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.634445 seconds.
+  path: Assets/Scripts/XNode/Dialogues/StartSceneDialogue/ChineseStartHelli Dialogue Graph 2.asset
+  artifactKey: Guid(62103e1759aab479c8225117d5e1c09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XNode/Dialogues/StartSceneDialogue/ChineseStartHelli Dialogue Graph 2.asset using Guid(62103e1759aab479c8225117d5e1c09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3cfcbeba604746b41d886e443b6cda8') in 0.005123 seconds 
+  Import took 0.013877 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.975314 seconds.
+  path: Assets/Scripts/XNode/Dialogues/StartSceneDialogue/ChineseStartHelli Dialogue Graph 2.asset
+  artifactKey: Guid(62103e1759aab479c8225117d5e1c09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XNode/Dialogues/StartSceneDialogue/ChineseStartHelli Dialogue Graph 2.asset using Guid(62103e1759aab479c8225117d5e1c09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdf29493a27d6cb4df52a2782952bc2b') in 0.006329 seconds 
+  Import took 0.016515 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.904183 seconds.
+  path: Assets/Scripts/XNode/Dialogues/StartSceneDialogue/ChineseStartHelli Dialogue Graph 2.asset
+  artifactKey: Guid(62103e1759aab479c8225117d5e1c09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XNode/Dialogues/StartSceneDialogue/ChineseStartHelli Dialogue Graph 2.asset using Guid(62103e1759aab479c8225117d5e1c09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd859349d7b500194363d2b597c664514') in 0.007432 seconds 
+  Import took 0.016885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.835017 seconds.
+  path: Assets/Scripts/XNode/Dialogues/StartSceneDialogue/StartHelli Dialogue Graph 2.asset
+  artifactKey: Guid(30b12e5f9f35e4dc0bcc49e2600e9d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XNode/Dialogues/StartSceneDialogue/StartHelli Dialogue Graph 2.asset using Guid(30b12e5f9f35e4dc0bcc49e2600e9d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c9d6ab6811071b650679bea67607e99') in 0.005963 seconds 
+  Import took 0.016062 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007828 seconds.
+  path: Assets/Scripts/XNode/Dialogues/StartSceneDialogue/ChineseStartHelli Dialogue Graph 2.asset
+  artifactKey: Guid(62103e1759aab479c8225117d5e1c09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XNode/Dialogues/StartSceneDialogue/ChineseStartHelli Dialogue Graph 2.asset using Guid(62103e1759aab479c8225117d5e1c09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b55af2dc4b1646a464eb4cdec547749') in 0.005682 seconds 
+  Import took 0.015524 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.318209 seconds.
+  path: Assets/Scripts/XNode/Dialogues/StartSceneDialogue/ThauStartHelli Dialogue Graph 2.asset
+  artifactKey: Guid(30b12e5f9f35e4dc0bcc49e2600e9d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XNode/Dialogues/StartSceneDialogue/ThauStartHelli Dialogue Graph 2.asset using Guid(30b12e5f9f35e4dc0bcc49e2600e9d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13844f71091aa76d137928ba85996a0d') in 0.006106 seconds 
+  Import took 0.015718 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.323154 seconds.
+  path: Assets/Scripts/XNode/Dialogues/StartSceneDialogue/ThaiStartHelli Dialogue Graph 2.asset
+  artifactKey: Guid(30b12e5f9f35e4dc0bcc49e2600e9d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XNode/Dialogues/StartSceneDialogue/ThaiStartHelli Dialogue Graph 2.asset using Guid(30b12e5f9f35e4dc0bcc49e2600e9d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0a11d9ec135a9c4466e4c9afce0b7da') in 0.007231 seconds 
+  Import took 0.017799 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 53.813186 seconds.
+  path: Assets/Scripts/XNode/Dialogues/StartSceneDialogue/ThaiStartHelli Dialogue Graph 2.asset
+  artifactKey: Guid(30b12e5f9f35e4dc0bcc49e2600e9d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XNode/Dialogues/StartSceneDialogue/ThaiStartHelli Dialogue Graph 2.asset using Guid(30b12e5f9f35e4dc0bcc49e2600e9d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4500f3813d411e9a12e6c4bbfd4eeb2b') in 0.005137 seconds 
+  Import took 0.013690 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.148079 seconds.
+  path: Assets/Scripts/XNode/Dialogues/StartSceneDialogue/ThaiStartHelli Dialogue Graph 2.asset
+  artifactKey: Guid(30b12e5f9f35e4dc0bcc49e2600e9d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XNode/Dialogues/StartSceneDialogue/ThaiStartHelli Dialogue Graph 2.asset using Guid(30b12e5f9f35e4dc0bcc49e2600e9d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '598753bcdad2062284bb63d3d1c3bc3c') in 0.005899 seconds 
+  Import took 0.016529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.619817 seconds.
+  path: Assets/Scripts/XNode/Dialogues/StartSceneDialogue/ThaiStartHelli Dialogue Graph 2.asset
+  artifactKey: Guid(30b12e5f9f35e4dc0bcc49e2600e9d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XNode/Dialogues/StartSceneDialogue/ThaiStartHelli Dialogue Graph 2.asset using Guid(30b12e5f9f35e4dc0bcc49e2600e9d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04460599a99a1bbb2892462e4d616d98') in 0.004081 seconds 
+  Import took 0.013221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.492342 seconds.
+  path: Assets/Scripts/XNode/Dialogues/StartSceneDialogue/ThaiStartHelli Dialogue Graph 2.asset
+  artifactKey: Guid(30b12e5f9f35e4dc0bcc49e2600e9d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XNode/Dialogues/StartSceneDialogue/ThaiStartHelli Dialogue Graph 2.asset using Guid(30b12e5f9f35e4dc0bcc49e2600e9d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2da0cbfe656abfa9313a205bbbbefcc7') in 0.005040 seconds 
+  Import took 0.016114 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.477631 seconds.
+  path: Assets/Scripts/XNode/Dialogues/StartSceneDialogue/ThaiStartHelli Dialogue Graph 2.asset
+  artifactKey: Guid(30b12e5f9f35e4dc0bcc49e2600e9d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XNode/Dialogues/StartSceneDialogue/ThaiStartHelli Dialogue Graph 2.asset using Guid(30b12e5f9f35e4dc0bcc49e2600e9d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec631c5cd1a0b68e42c6f082f6ad7bd6') in 0.006230 seconds 
+  Import took 0.019034 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.938393 seconds.
+  path: Assets/Scripts/XNode/Dialogues/StudentsDialogue/English/StudentDialogue 1.asset
+  artifactKey: Guid(6d79095b580094015979b9c0779df1fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XNode/Dialogues/StudentsDialogue/English/StudentDialogue 1.asset using Guid(6d79095b580094015979b9c0779df1fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '162a31d46f0f1e9cb9d12c950755f4e2') in 0.004724 seconds 
+  Import took 0.014396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Scripts/XNode/Dialogues/StudentsDialogue/English/StudentDialogue 2.asset
+  artifactKey: Guid(898cfbecf7952405990797da88c9633e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XNode/Dialogues/StudentsDialogue/English/StudentDialogue 2.asset using Guid(898cfbecf7952405990797da88c9633e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45feeb3cf068b7a9882d5f643c1faac8') in 0.003723 seconds 
+  Import took 0.013082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Scripts/XNode/Dialogues/StudentsDialogue/English/StudentDialogue.asset
+  artifactKey: Guid(ac0ff5bf042824fc0b211b41ce495060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XNode/Dialogues/StudentsDialogue/English/StudentDialogue.asset using Guid(ac0ff5bf042824fc0b211b41ce495060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb41fafd1cde17620faf33fa0da65898') in 0.003858 seconds 
+  Import took 0.013886 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.808225 seconds.
+  path: Assets/Scripts/XNode/Dialogues/StudentsDialogue/Russian/GirlStudentDialogue 4.asset
+  artifactKey: Guid(a5d56583c8c114ac1a236692486c3663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XNode/Dialogues/StudentsDialogue/Russian/GirlStudentDialogue 4.asset using Guid(a5d56583c8c114ac1a236692486c3663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66e83a7adbc3df95ce6f42046f40fbb2') in 0.004523 seconds 
+  Import took 0.015590 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Scripts/XNode/Dialogues/StudentsDialogue/Russian/StudentDialogue 5.asset
+  artifactKey: Guid(82884806464df4bc091013e13d30dce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XNode/Dialogues/StudentsDialogue/Russian/StudentDialogue 5.asset using Guid(82884806464df4bc091013e13d30dce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a84c40c9055f81af305a9c9b2c245fd1') in 0.004382 seconds 
+  Import took 0.013519 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Scripts/XNode/Dialogues/StudentsDialogue/Russian/StudentDialogue 3.asset
+  artifactKey: Guid(13b7d6a294c014cea8a20f16801af89c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XNode/Dialogues/StudentsDialogue/Russian/StudentDialogue 3.asset using Guid(13b7d6a294c014cea8a20f16801af89c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3791f34fd1c36fd25511b83fa53ebe5c') in 0.003825 seconds 
+  Import took 0.013337 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.422573 seconds.
+  path: Assets/Scripts/XNode/Dialogues/MonsterDoor/MonsterDoor 2.asset
+  artifactKey: Guid(61584ececd76f4c978d101c2a45d2f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XNode/Dialogues/MonsterDoor/MonsterDoor 2.asset using Guid(61584ececd76f4c978d101c2a45d2f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff046f2bfe348f52bbb5020ee9c1ffee') in 0.005118 seconds 
+  Import took 0.014987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.241061 seconds.
+  path: Assets/Scripts/XNode/Dialogues/MonsterDoor/SpanishMonsterDoor 2.asset
+  artifactKey: Guid(61584ececd76f4c978d101c2a45d2f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XNode/Dialogues/MonsterDoor/SpanishMonsterDoor 2.asset using Guid(61584ececd76f4c978d101c2a45d2f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a83ceb1b2b90b444b2c1153f3cd7f2bf') in 0.005344 seconds 
+  Import took 0.015051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.372929 seconds.
+  path: Assets/Scripts/XNode/Dialogues/MonsterDoor/MonsterDoor 2.asset
+  artifactKey: Guid(0c32aaa7518be4460b9cf7719b9c989f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XNode/Dialogues/MonsterDoor/MonsterDoor 2.asset using Guid(0c32aaa7518be4460b9cf7719b9c989f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1bb886b8bab47e949778188788beb90') in 0.004858 seconds 
+  Import took 0.014751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009166 seconds.
+  path: Assets/Scripts/XNode/Dialogues/MonsterDoor/SpanishMonsterDoor 2.asset
+  artifactKey: Guid(61584ececd76f4c978d101c2a45d2f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XNode/Dialogues/MonsterDoor/SpanishMonsterDoor 2.asset using Guid(61584ececd76f4c978d101c2a45d2f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c71cd801234fc9506f10c7ff8a2cf593') in 0.003336 seconds 
+  Import took 0.013334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.001604 seconds.
+  path: Assets/Scripts/XNode/Dialogues/MonsterDoor/GermanMonsterDoor 2.asset
+  artifactKey: Guid(0c32aaa7518be4460b9cf7719b9c989f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XNode/Dialogues/MonsterDoor/GermanMonsterDoor 2.asset using Guid(0c32aaa7518be4460b9cf7719b9c989f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2374c03b7a2a5eb92abd7db5815d7f76') in 0.004783 seconds 
+  Import took 0.014431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.731152 seconds.
+  path: Assets/Scripts/XNode/Dialogues/MonsterDoor/MonsterDoor 2.asset
+  artifactKey: Guid(fada5a79a44054714895722e381d7385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XNode/Dialogues/MonsterDoor/MonsterDoor 2.asset using Guid(fada5a79a44054714895722e381d7385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d8a8215d21b4a8e0d2ac3ea0524ec8c') in 0.004503 seconds 
+  Import took 0.013630 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008490 seconds.
+  path: Assets/Scripts/XNode/Dialogues/MonsterDoor/GermanMonsterDoor 2.asset
+  artifactKey: Guid(0c32aaa7518be4460b9cf7719b9c989f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XNode/Dialogues/MonsterDoor/GermanMonsterDoor 2.asset using Guid(0c32aaa7518be4460b9cf7719b9c989f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d46e6b1d15f3ad58b1fb9baaea2cc7e') in 0.004059 seconds 
+  Import took 0.014257 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.368197 seconds.
+  path: Assets/Scripts/XNode/Dialogues/MonsterDoor/JapaneseMonsterDoor 2.asset
+  artifactKey: Guid(fada5a79a44054714895722e381d7385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XNode/Dialogues/MonsterDoor/JapaneseMonsterDoor 2.asset using Guid(fada5a79a44054714895722e381d7385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbc5ea0d01a2365a52f17557f34dafe8') in 0.004093 seconds 
+  Import took 0.014372 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.270666 seconds.
+  path: Assets/Scripts/XNode/Dialogues/MonsterDoor/JapaneseMonsterDoor 2.asset
+  artifactKey: Guid(fada5a79a44054714895722e381d7385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XNode/Dialogues/MonsterDoor/JapaneseMonsterDoor 2.asset using Guid(fada5a79a44054714895722e381d7385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1667e2a0a2e43489944a46701973c13') in 0.004218 seconds 
+  Import took 0.015397 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.313814 seconds.
+  path: Assets/Scripts/XNode/Dialogues/MonsterDoor/MonsterDoor 2.asset
+  artifactKey: Guid(1f300e168d87348a7bf82ea6f713d473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XNode/Dialogues/MonsterDoor/MonsterDoor 2.asset using Guid(1f300e168d87348a7bf82ea6f713d473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d6d1e3d3de89e84b5b01b9e55ae10cd') in 0.004388 seconds 
+  Import took 0.014221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.673737 seconds.
+  path: Assets/Scripts/XNode/Dialogues/MonsterDoor/PortugeseMonsterDoor 2.asset
+  artifactKey: Guid(1f300e168d87348a7bf82ea6f713d473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XNode/Dialogues/MonsterDoor/PortugeseMonsterDoor 2.asset using Guid(1f300e168d87348a7bf82ea6f713d473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1b264157c24bbdf6a9d0c09ddf4b45e') in 0.004608 seconds 
+  Import took 0.014801 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.728092 seconds.
+  path: Assets/Scripts/XNode/Dialogues/MonsterDoor/PortugeseMonsterDoor 2.asset
+  artifactKey: Guid(1f300e168d87348a7bf82ea6f713d473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XNode/Dialogues/MonsterDoor/PortugeseMonsterDoor 2.asset using Guid(1f300e168d87348a7bf82ea6f713d473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6731c4882fb2a58cf0e8ea04f08b3745') in 0.004535 seconds 
+  Import took 0.014840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.543321 seconds.
+  path: Assets/Scripts/XNode/Dialogues/MonsterDoor/MonsterDoor 2.asset
+  artifactKey: Guid(4cba4fb25afaa444d8ffff9ec14ed7f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XNode/Dialogues/MonsterDoor/MonsterDoor 2.asset using Guid(4cba4fb25afaa444d8ffff9ec14ed7f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f17690aeea6b1ff82e769b53975886dc') in 0.004411 seconds 
+  Import took 0.014476 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.095086 seconds.
+  path: Assets/Scripts/XNode/Dialogues/MonsterDoor/KoreanMonsterDoor 2.asset
+  artifactKey: Guid(4cba4fb25afaa444d8ffff9ec14ed7f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XNode/Dialogues/MonsterDoor/KoreanMonsterDoor 2.asset using Guid(4cba4fb25afaa444d8ffff9ec14ed7f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51ba01223d652957f3ae0f53e6eadfe6') in 0.004767 seconds 
+  Import took 0.014131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.196983 seconds.
+  path: Assets/Scripts/XNode/Dialogues/MonsterDoor/KoreanMonsterDoor 2.asset
+  artifactKey: Guid(4cba4fb25afaa444d8ffff9ec14ed7f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XNode/Dialogues/MonsterDoor/KoreanMonsterDoor 2.asset using Guid(4cba4fb25afaa444d8ffff9ec14ed7f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd5ed23a1b9763c3e60c7baee2d15c07') in 0.004088 seconds 
+  Import took 0.014225 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.278634 seconds.
+  path: Assets/Scripts/XNode/Dialogues/MonsterDoor/MonsterDoor 2.asset
+  artifactKey: Guid(05dc56403bf384ad3965b0eebc530a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XNode/Dialogues/MonsterDoor/MonsterDoor 2.asset using Guid(05dc56403bf384ad3965b0eebc530a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '247511caf8bb8394f6547811e41096cf') in 0.004533 seconds 
+  Import took 0.014506 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.823668 seconds.
+  path: Assets/Scripts/XNode/Dialogues/MonsterDoor/IndonesianMonsterDoor 2.asset
+  artifactKey: Guid(05dc56403bf384ad3965b0eebc530a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XNode/Dialogues/MonsterDoor/IndonesianMonsterDoor 2.asset using Guid(05dc56403bf384ad3965b0eebc530a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79787d659e9e03ea203e4381bb13d616') in 0.005065 seconds 
+  Import took 0.015129 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.805127 seconds.
+  path: Assets/Scripts/XNode/Dialogues/MonsterDoor/IndonesianMonsterDoor 2.asset
+  artifactKey: Guid(05dc56403bf384ad3965b0eebc530a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XNode/Dialogues/MonsterDoor/IndonesianMonsterDoor 2.asset using Guid(05dc56403bf384ad3965b0eebc530a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1674b56344a9dd87baaf21d647a41c62') in 0.003999 seconds 
+  Import took 0.013397 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.237390 seconds.
+  path: Assets/Scripts/XNode/Dialogues/MonsterDoor/MonsterDoor 2.asset
+  artifactKey: Guid(c90fe39e3f1c64dbb87c8d2430b68109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XNode/Dialogues/MonsterDoor/MonsterDoor 2.asset using Guid(c90fe39e3f1c64dbb87c8d2430b68109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b0a3c713d1dcb6cd5504c2e7cf5e94a') in 0.004898 seconds 
+  Import took 0.014882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.918555 seconds.
+  path: Assets/Scripts/XNode/Dialogues/MonsterDoor/ChineseMonsterDoor 2.asset
+  artifactKey: Guid(c90fe39e3f1c64dbb87c8d2430b68109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XNode/Dialogues/MonsterDoor/ChineseMonsterDoor 2.asset using Guid(c90fe39e3f1c64dbb87c8d2430b68109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd54c56c24e0128aa76b4346962c7121') in 0.004927 seconds 
+  Import took 0.014726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.829486 seconds.
+  path: Assets/Scripts/XNode/Dialogues/MonsterDoor/ChineseMonsterDoor 2.asset
+  artifactKey: Guid(c90fe39e3f1c64dbb87c8d2430b68109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XNode/Dialogues/MonsterDoor/ChineseMonsterDoor 2.asset using Guid(c90fe39e3f1c64dbb87c8d2430b68109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03bc0b1392a676950b538cb6038d548e') in 0.004838 seconds 
+  Import took 0.015272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.683662 seconds.
+  path: Assets/Scripts/XNode/Dialogues/MonsterDoor/MonsterDoor 2.asset
+  artifactKey: Guid(f00babe12c5d847c5a74478037faa29b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XNode/Dialogues/MonsterDoor/MonsterDoor 2.asset using Guid(f00babe12c5d847c5a74478037faa29b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcc73803b8513b6661a94ea32ed9e3a9') in 0.004673 seconds 
+  Import took 0.014452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.133436 seconds.
+  path: Assets/Scripts/XNode/Dialogues/MonsterDoor/ThaiMonsterDoor 2.asset
+  artifactKey: Guid(f00babe12c5d847c5a74478037faa29b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XNode/Dialogues/MonsterDoor/ThaiMonsterDoor 2.asset using Guid(f00babe12c5d847c5a74478037faa29b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c26406c1ae9f36dbda4e8919f7330f68') in 0.003456 seconds 
+  Import took 0.013604 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 206.540985 seconds.
+  path: Assets/Scripts/XNode/Dialogues/EndSceneDialogue/EndOfDemoDialogue 1.asset
+  artifactKey: Guid(f5e28cc192233415d95228bf6f9ca03b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XNode/Dialogues/EndSceneDialogue/EndOfDemoDialogue 1.asset using Guid(f5e28cc192233415d95228bf6f9ca03b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8f3a7bbb44c750aa514bbaa5da85068') in 0.006283 seconds 
+  Import took 0.016128 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.265563 seconds.
+  path: Assets/Scripts/XNode/Dialogues/EndSceneDialogue/SpanishEndOfDemoDialogue 1.asset
+  artifactKey: Guid(f5e28cc192233415d95228bf6f9ca03b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XNode/Dialogues/EndSceneDialogue/SpanishEndOfDemoDialogue 1.asset using Guid(f5e28cc192233415d95228bf6f9ca03b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bc4c811e43a9c9da1647084776c89fd') in 0.007444 seconds 
+  Import took 0.016600 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.175314 seconds.
+  path: Assets/Scripts/XNode/Dialogues/EndSceneDialogue/SpanishEndOfDemoDialogue 1.asset
+  artifactKey: Guid(f5e28cc192233415d95228bf6f9ca03b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XNode/Dialogues/EndSceneDialogue/SpanishEndOfDemoDialogue 1.asset using Guid(f5e28cc192233415d95228bf6f9ca03b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79ae4e7aa99e53cce8e5e846d33ba59f') in 0.005823 seconds 
+  Import took 0.014967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.381856 seconds.
+  path: Assets/Scripts/XNode/Dialogues/EndSceneDialogue/SpanishEndOfDemoDialogue 1.asset
+  artifactKey: Guid(f5e28cc192233415d95228bf6f9ca03b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XNode/Dialogues/EndSceneDialogue/SpanishEndOfDemoDialogue 1.asset using Guid(f5e28cc192233415d95228bf6f9ca03b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51c66d75a163f0180ae6eacf5cde8980') in 0.005797 seconds 
+  Import took 0.014243 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.182921 seconds.
+  path: Assets/Scripts/XNode/Dialogues/EndSceneDialogue/SpanishEndOfDemoDialogue 1.asset
+  artifactKey: Guid(f5e28cc192233415d95228bf6f9ca03b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XNode/Dialogues/EndSceneDialogue/SpanishEndOfDemoDialogue 1.asset using Guid(f5e28cc192233415d95228bf6f9ca03b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7511e5eb8da9c487e43dd5e718dfb5b4') in 0.007471 seconds 
+  Import took 0.016597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.011262 seconds.
+  path: Assets/Scripts/XNode/Dialogues/EndSceneDialogue/SpanishEndOfDemoDialogue 1.asset
+  artifactKey: Guid(f5e28cc192233415d95228bf6f9ca03b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XNode/Dialogues/EndSceneDialogue/SpanishEndOfDemoDialogue 1.asset using Guid(f5e28cc192233415d95228bf6f9ca03b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aeb4b5d00c1a11a42a3c4d7e3470790') in 0.006666 seconds 
+  Import took 0.017819 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.971499 seconds.
+  path: Assets/Scripts/XNode/Dialogues/EndSceneDialogue/SpanishEndOfDemoDialogue 1.asset
+  artifactKey: Guid(f5e28cc192233415d95228bf6f9ca03b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XNode/Dialogues/EndSceneDialogue/SpanishEndOfDemoDialogue 1.asset using Guid(f5e28cc192233415d95228bf6f9ca03b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fc16f4e6c8119f83e9eeb4846917343') in 0.007663 seconds 
+  Import took 0.017452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.914874 seconds.
+  path: Assets/Scripts/XNode/Dialogues/EndSceneDialogue/SpanishEndOfDemoDialogue 1.asset
+  artifactKey: Guid(f5e28cc192233415d95228bf6f9ca03b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XNode/Dialogues/EndSceneDialogue/SpanishEndOfDemoDialogue 1.asset using Guid(f5e28cc192233415d95228bf6f9ca03b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cd1613db4a53491f2b4e966f76c089f') in 0.005529 seconds 
+  Import took 0.014736 seconds .
+

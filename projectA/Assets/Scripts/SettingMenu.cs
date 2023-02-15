@@ -48,6 +48,11 @@ public class SettingMenu : MonoBehaviour
     [SerializeField] private TextMeshProUGUI _fullscreenText;
     [SerializeField] private TextMeshProUGUI _resolutionText;
 
+    [SerializeField] private TMP_FontAsset _globalFont;
+    [SerializeField] private TMP_FontAsset _simpleFont;
+
+    private List<TextMeshProUGUI> _allTexts = new List<TextMeshProUGUI>();
+
     public UnityEvent _changeLanguageEvents;
 
     public static event Action ChangeLanguageEvent;
@@ -153,6 +158,7 @@ public class SettingMenu : MonoBehaviour
 
     private void Start()
     {
+
         if (UIManager.SmartphoneInput)
         {
             Application.runInBackground = true;
@@ -222,6 +228,14 @@ public class SettingMenu : MonoBehaviour
 
     public void ChangeLanguage()
     {
+        _allTexts.Add(_languageText);
+        _allTexts.Add(_graphicsText);
+        _allTexts.Add(_musicText);
+        _allTexts.Add(_soundText);
+        _allTexts.Add(_sensivityText);
+        _allTexts.Add(_fullscreenText);
+        _allTexts.Add(_resolutionText);
+
         switch (LanguageInt)
         {
             case 0: // English
@@ -237,6 +251,12 @@ public class SettingMenu : MonoBehaviour
                     _fullscreenText.text = "FULL SCREEN";
                     _resolutionText.text = "RESOLUTION";
                 }
+
+                foreach (TextMeshProUGUI text in _allTexts)
+                {
+                    text.font = _simpleFont;
+                }
+
                 break;
             case 1: // Russian
                 _settingsText.text = "НАСТРОЙКИ";
@@ -251,6 +271,12 @@ public class SettingMenu : MonoBehaviour
                     _fullscreenText.text = "ПОЛНЫЙ ЭКРАН";
                     _resolutionText.text = "РАЗРЕШЕНИЕ";
                 }
+
+                foreach (TextMeshProUGUI text in _allTexts)
+                {
+                    text.font = _simpleFont;
+                }
+
                 break;
             case 3: // Spanish
                 _settingsText.text = "AJUSTES";
@@ -265,6 +291,12 @@ public class SettingMenu : MonoBehaviour
                     _fullscreenText.text = "PANTALLA COMPLETA";
                     _resolutionText.text = "RESOLUCIÓN";
                 }
+
+                foreach (TextMeshProUGUI text in _allTexts)
+                {
+                    text.font = _globalFont;
+                }
+
                 break;
             case 4: // German
                 _settingsText.text = "EINSTELLUNGEN";
@@ -279,6 +311,12 @@ public class SettingMenu : MonoBehaviour
                     _fullscreenText.text = "VOLLBILDSCHIRM";
                     _resolutionText.text = "AUFLÖSUNG";
                 }
+
+                foreach (TextMeshProUGUI text in _allTexts)
+                {
+                    text.font = _globalFont;
+                }
+
                 break;
             case 5: // Japanese
                 _settingsText.text = "設定";
@@ -293,6 +331,12 @@ public class SettingMenu : MonoBehaviour
                     _fullscreenText.text = "フルスクリーン";
                     _resolutionText.text = "解像度";
                 }
+
+                foreach (TextMeshProUGUI text in _allTexts)
+                {
+                    text.font = _globalFont;
+                }
+
                 break;
             case 6: // Portugese brazilian
                 _settingsText.text = "SETTINGS";
@@ -307,6 +351,12 @@ public class SettingMenu : MonoBehaviour
                     _fullscreenText.text = "FULL SCREEN";
                     _resolutionText.text = "RESOLUÇÃO";
                 }
+
+                foreach (TextMeshProUGUI text in _allTexts)
+                {
+                    text.font = _globalFont;
+                }
+
                 break;
             case 7: // Korean
                 _settingsText.text = "설정";
@@ -321,6 +371,12 @@ public class SettingMenu : MonoBehaviour
                     _fullscreenText.text = "전체 화면";
                     _resolutionText.text = "해상도";
                 }
+
+                foreach (TextMeshProUGUI text in _allTexts)
+                {
+                    text.font = _globalFont;
+                }
+
                 break;
             case 8: // Indonesian
                 _settingsText.text = "PENGATURAN";
@@ -335,6 +391,12 @@ public class SettingMenu : MonoBehaviour
                     _fullscreenText.text = "LAYAR PENUH";
                     _resolutionText.text = "RESOLUSI";
                 }
+
+                foreach (TextMeshProUGUI text in _allTexts)
+                {
+                    text.font = _globalFont;
+                }
+
                 break;
             case 9: //Chinese
                 _settingsText.text = "设置";
@@ -349,6 +411,12 @@ public class SettingMenu : MonoBehaviour
                     _fullscreenText.text = "全屏";
                     _resolutionText.text = "决议";
                 }
+
+                foreach (TextMeshProUGUI text in _allTexts)
+                {
+                    text.font = _globalFont;
+                }
+
                 break;
             case 10: // Thai
                 _settingsText.text = "การตั้งค่า";
@@ -363,6 +431,12 @@ public class SettingMenu : MonoBehaviour
                     _fullscreenText.text = "เต็มหน้าจอ";
                     _resolutionText.text = "แก้ไข";
                 }
+
+                foreach (TextMeshProUGUI text in _allTexts)
+                {
+                    text.font = _globalFont;
+                }
+
                 break;
         }
     }
