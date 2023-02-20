@@ -22,107 +22,107 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63709
+55212
 Successfully changed project path to: /Users/eldar/MyUnityGames/projectA/Git/projectA
 /Users/eldar/MyUnityGames/projectA/Git/projectA
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 153.00 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 123.09 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.24f1 (79c78de19888)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.24f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/eldar/MyUnityGames/projectA/Git/projectA/Assets
 GfxDevice: creating device client; threaded=0
-2023-02-15 23:00:08.265 Unity[29252:1365520] Color LCD preferred device: Intel(R) UHD Graphics 630 (low power)
-2023-02-15 23:00:08.265 Unity[29252:1365520] Metal devices available: 2
-2023-02-15 23:00:08.265 Unity[29252:1365520] 0: AMD Radeon Pro 5500M (high power)
-2023-02-15 23:00:08.265 Unity[29252:1365520] 1: Intel(R) UHD Graphics 630 (low power)
-2023-02-15 23:00:08.266 Unity[29252:1365520] Using device AMD Radeon Pro 5500M (high power)
+2023-02-18 13:10:47.595 Unity[34022:1617943] Color LCD preferred device: Intel(R) UHD Graphics 630 (low power)
+2023-02-18 13:10:47.595 Unity[34022:1617943] Metal devices available: 2
+2023-02-18 13:10:47.595 Unity[34022:1617943] 0: AMD Radeon Pro 5500M (high power)
+2023-02-18 13:10:47.595 Unity[34022:1617943] 1: Intel(R) UHD Graphics 630 (low power)
+2023-02-18 13:10:47.595 Unity[34022:1617943] Using device AMD Radeon Pro 5500M (high power)
 Initializing Metal device caps: AMD Radeon Pro 5500M
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.24f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.24f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Hub/Editor/2020.3.24f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56252
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56022
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.24f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.24f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.24f1/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.000670 seconds.
+Registered in 0.002879 seconds.
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 112.28 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 114.49 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.689 seconds
+- Completed reload, in  0.716 seconds
 Domain Reload Profiling:
-	ReloadAssembly (689ms)
-		BeginReloadAssembly (42ms)
+	ReloadAssembly (716ms)
+		BeginReloadAssembly (39ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (570ms)
-			LoadAssemblies (41ms)
+		EndReloadAssembly (591ms)
+			LoadAssemblies (42ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (178ms)
+			SetupTypeCache (192ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (270ms)
+			SetupLoadedEditorAssemblies (275ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (112ms)
-				BeforeProcessingInitializeOnLoad (32ms)
-				ProcessInitializeOnLoadAttributes (93ms)
-				ProcessInitializeOnLoadMethodAttributes (27ms)
+				RefreshPlugins (115ms)
+				BeforeProcessingInitializeOnLoad (31ms)
+				ProcessInitializeOnLoadAttributes (92ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005426 seconds.
+Registered in 0.011104 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 111.01 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 162.69 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.326 seconds
+- Completed reload, in  2.775 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2330ms)
-		BeginReloadAssembly (151ms)
+	ReloadAssembly (2778ms)
+		BeginReloadAssembly (153ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (2115ms)
-			LoadAssemblies (151ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (2563ms)
+			LoadAssemblies (163ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (485ms)
+			SetupTypeCache (507ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (85ms)
-			SetupLoadedEditorAssemblies (1164ms)
+			RebuildScriptCaches (90ms)
+			SetupLoadedEditorAssemblies (1572ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (111ms)
-				BeforeProcessingInitializeOnLoad (113ms)
-				ProcessInitializeOnLoadAttributes (748ms)
-				ProcessInitializeOnLoadMethodAttributes (187ms)
+				RefreshPlugins (163ms)
+				BeforeProcessingInitializeOnLoad (176ms)
+				ProcessInitializeOnLoadAttributes (999ms)
+				ProcessInitializeOnLoadMethodAttributes (228ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
-Validating Project structure ... 0.039444 seconds.
+Validating Project structure ... 0.031660 seconds.
 Shader import version has changed; will reimport all shaders...
-Upgrading shader files ...0.076092 seconds.
+Upgrading shader files ...0.078109 seconds.
 Application.AssetDatabase Initial Script Refresh Start
 RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
 RefreshProfiler: Total: 0.000ms
@@ -132,20 +132,20 @@ Application.AssetDatabase.Refresh End
 RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
 RefreshProfiler: Total: 0.000ms
 Launching external process: /Applications/Unity/Hub/Editor/2020.3.24f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
 Initializing Unity extensions:
-2023-02-15 23:00:14.986 Unity[29252:1365520] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7fb3ee66e490 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-2023-02-15 23:00:14.992 Unity[29252:1365520] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7fb3ee709110 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2023-02-18 13:10:54.909 Unity[34022:1617943] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7fa1c17fbdc0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2023-02-18 13:10:54.916 Unity[34022:1617943] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7fa1c225eae0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
 ========================================================================
 Worker process is ready to serve import requests
-Refreshing native plugins compatible for Editor in 1.59 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.27 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5312 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 378.7 MB.
-System memory in use after: 378.4 MB.
+Unloading 5319 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 379.3 MB.
+System memory in use after: 378.8 MB.
 
-Unloading 595 unused Assets to reduce memory usage. Loaded Objects now: 5752.
-Total: 8.508462 ms (FindLiveObjects: 0.664571 ms CreateObjectMapping: 0.345073 ms MarkObjects: 7.177086 ms  DeleteObjects: 0.320848 ms)
+Unloading 665 unused Assets to reduce memory usage. Loaded Objects now: 5752.
+Total: 9.340970 ms (FindLiveObjects: 0.638070 ms CreateObjectMapping: 0.381081 ms MarkObjects: 7.931270 ms  DeleteObjects: 0.389342 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -159,470 +159,22 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts/XNode/Dialogues/MonsterDoor/ThaiMonsterDoor 2.asset
-  artifactKey: Guid(f00babe12c5d847c5a74478037faa29b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/XNode/Dialogues/MonsterDoor/ThaiMonsterDoor 2.asset using Guid(f00babe12c5d847c5a74478037faa29b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '841a06453d270793615de245abee9b4f') in 0.818078 seconds 
-  Import took 0.831532 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 39.343880 seconds.
-  path: Assets/Scripts/XNode/Dialogues/EndSceneDialogue/EndOfDemoDialogue 1.asset
-  artifactKey: Guid(66762286c07c24b7abecc8b8ab4d4654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/XNode/Dialogues/EndSceneDialogue/EndOfDemoDialogue 1.asset using Guid(66762286c07c24b7abecc8b8ab4d4654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2283160b5f19e2e2f2f82add15f74ed7') in 0.011461 seconds 
-  Import took 0.020483 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.155831 seconds.
-  path: Assets/Scripts/XNode/Dialogues/EndSceneDialogue/GermanEndOfDemoDialogue 1.asset
-  artifactKey: Guid(66762286c07c24b7abecc8b8ab4d4654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/XNode/Dialogues/EndSceneDialogue/GermanEndOfDemoDialogue 1.asset using Guid(66762286c07c24b7abecc8b8ab4d4654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d03bd3fd9e18ae8ea94c1f563b0f6d0') in 0.006142 seconds 
-  Import took 0.015795 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 79.837394 seconds.
-  path: Assets/Scripts/XNode/Dialogues/EndSceneDialogue/GermanEndOfDemoDialogue 1.asset
-  artifactKey: Guid(66762286c07c24b7abecc8b8ab4d4654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/XNode/Dialogues/EndSceneDialogue/GermanEndOfDemoDialogue 1.asset using Guid(66762286c07c24b7abecc8b8ab4d4654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9142dff37f014fee10cad778cd7c9018') in 0.008883 seconds 
-  Import took 0.018066 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.737453 seconds.
-  path: Assets/Scripts/XNode/Dialogues/EndSceneDialogue/GermanEndOfDemoDialogue 1.asset
-  artifactKey: Guid(66762286c07c24b7abecc8b8ab4d4654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/XNode/Dialogues/EndSceneDialogue/GermanEndOfDemoDialogue 1.asset using Guid(66762286c07c24b7abecc8b8ab4d4654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa5cba2c787e673e9a84af18b6fbf520') in 0.005666 seconds 
-  Import took 0.015130 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.610299 seconds.
-  path: Assets/Scripts/XNode/Dialogues/EndSceneDialogue/GermanEndOfDemoDialogue 1.asset
-  artifactKey: Guid(66762286c07c24b7abecc8b8ab4d4654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/XNode/Dialogues/EndSceneDialogue/GermanEndOfDemoDialogue 1.asset using Guid(66762286c07c24b7abecc8b8ab4d4654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1605fd2ae2f46b342e8779504642e72') in 0.005714 seconds 
-  Import took 0.016445 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.492823 seconds.
-  path: Assets/Scripts/XNode/Dialogues/EndSceneDialogue/GermanEndOfDemoDialogue 1.asset
-  artifactKey: Guid(66762286c07c24b7abecc8b8ab4d4654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/XNode/Dialogues/EndSceneDialogue/GermanEndOfDemoDialogue 1.asset using Guid(66762286c07c24b7abecc8b8ab4d4654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d801dd76977c78eb7bf65ebcdee1aba') in 0.005976 seconds 
-  Import took 0.015809 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.374312 seconds.
-  path: Assets/Scripts/XNode/Dialogues/EndSceneDialogue/GermanEndOfDemoDialogue 1.asset
-  artifactKey: Guid(66762286c07c24b7abecc8b8ab4d4654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/XNode/Dialogues/EndSceneDialogue/GermanEndOfDemoDialogue 1.asset using Guid(66762286c07c24b7abecc8b8ab4d4654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fe24ae874b061702178ed900a077777') in 0.005975 seconds 
-  Import took 0.019987 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.064345 seconds.
-  path: Assets/Scripts/XNode/Dialogues/EndSceneDialogue/GermanEndOfDemoDialogue 1.asset
-  artifactKey: Guid(66762286c07c24b7abecc8b8ab4d4654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/XNode/Dialogues/EndSceneDialogue/GermanEndOfDemoDialogue 1.asset using Guid(66762286c07c24b7abecc8b8ab4d4654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41e00e03ee61f54880f1571424c328b7') in 0.007902 seconds 
-  Import took 0.020621 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.916260 seconds.
-  path: Assets/Scripts/XNode/Dialogues/EndSceneDialogue/EndOfDemoDialogue 1.asset
-  artifactKey: Guid(7122e5fadf8ca4aa3a9943e3f9c9d5aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/XNode/Dialogues/EndSceneDialogue/EndOfDemoDialogue 1.asset using Guid(7122e5fadf8ca4aa3a9943e3f9c9d5aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9983d5040b75f6678a8ab4aa49c0726') in 0.006481 seconds 
-  Import took 0.016154 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 22.996075 seconds.
-  path: Assets/Scripts/XNode/Dialogues/EndSceneDialogue/JapaneseOfDemoDialogue 1.asset
-  artifactKey: Guid(7122e5fadf8ca4aa3a9943e3f9c9d5aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/XNode/Dialogues/EndSceneDialogue/JapaneseOfDemoDialogue 1.asset using Guid(7122e5fadf8ca4aa3a9943e3f9c9d5aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f9e91013d67fc589fcf851667331a07') in 0.006199 seconds 
-  Import took 0.015589 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.175122 seconds.
-  path: Assets/Scripts/XNode/Dialogues/EndSceneDialogue/JapaneseOfDemoDialogue 1.asset
-  artifactKey: Guid(7122e5fadf8ca4aa3a9943e3f9c9d5aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/XNode/Dialogues/EndSceneDialogue/JapaneseOfDemoDialogue 1.asset using Guid(7122e5fadf8ca4aa3a9943e3f9c9d5aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0b58eab38de58cbc4ab422b511674dd') in 0.007316 seconds 
-  Import took 0.017911 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.682894 seconds.
-  path: Assets/Scripts/XNode/Dialogues/EndSceneDialogue/JapaneseOfDemoDialogue 1.asset
-  artifactKey: Guid(7122e5fadf8ca4aa3a9943e3f9c9d5aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/XNode/Dialogues/EndSceneDialogue/JapaneseOfDemoDialogue 1.asset using Guid(7122e5fadf8ca4aa3a9943e3f9c9d5aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a878b9d9ffb0d19eb3efa555a2b7f51') in 0.006447 seconds 
-  Import took 0.016766 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.173268 seconds.
-  path: Assets/Scripts/XNode/Dialogues/EndSceneDialogue/JapaneseOfDemoDialogue 1.asset
-  artifactKey: Guid(7122e5fadf8ca4aa3a9943e3f9c9d5aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/XNode/Dialogues/EndSceneDialogue/JapaneseOfDemoDialogue 1.asset using Guid(7122e5fadf8ca4aa3a9943e3f9c9d5aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0ba8b3473776684cf3e860a4f6dbc2f') in 0.005490 seconds 
-  Import took 0.016272 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.374083 seconds.
-  path: Assets/Scripts/XNode/Dialogues/EndSceneDialogue/JapaneseOfDemoDialogue 1.asset
-  artifactKey: Guid(7122e5fadf8ca4aa3a9943e3f9c9d5aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/XNode/Dialogues/EndSceneDialogue/JapaneseOfDemoDialogue 1.asset using Guid(7122e5fadf8ca4aa3a9943e3f9c9d5aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '209f111e58046f3cb64c9abb8c12c262') in 0.005437 seconds 
-  Import took 0.014185 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.693136 seconds.
-  path: Assets/Scripts/XNode/Dialogues/EndSceneDialogue/JapaneseOfDemoDialogue 1.asset
-  artifactKey: Guid(7122e5fadf8ca4aa3a9943e3f9c9d5aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/XNode/Dialogues/EndSceneDialogue/JapaneseOfDemoDialogue 1.asset using Guid(7122e5fadf8ca4aa3a9943e3f9c9d5aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0912998c4218ad186924eca5b1611189') in 0.007434 seconds 
-  Import took 0.018717 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.694245 seconds.
-  path: Assets/Scripts/XNode/Dialogues/EndSceneDialogue/JapaneseOfDemoDialogue 1.asset
-  artifactKey: Guid(7122e5fadf8ca4aa3a9943e3f9c9d5aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/XNode/Dialogues/EndSceneDialogue/JapaneseOfDemoDialogue 1.asset using Guid(7122e5fadf8ca4aa3a9943e3f9c9d5aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b555b817d9d5ec1b84d9e746084b31ef') in 0.006537 seconds 
-  Import took 0.017854 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 38.449646 seconds.
-  path: Assets/Scripts/XNode/Dialogues/EndSceneDialogue/EndOfDemoDialogue 1.asset
-  artifactKey: Guid(fdecc96767a8d4871872142856ca482d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/XNode/Dialogues/EndSceneDialogue/EndOfDemoDialogue 1.asset using Guid(fdecc96767a8d4871872142856ca482d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21e087dcefa9c00035c895ba0f9524b9') in 0.006664 seconds 
-  Import took 0.015849 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.261837 seconds.
-  path: Assets/Scripts/XNode/Dialogues/EndSceneDialogue/PortugeseBrasilianEndOfDemoDialogue 1.asset
-  artifactKey: Guid(fdecc96767a8d4871872142856ca482d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/XNode/Dialogues/EndSceneDialogue/PortugeseBrasilianEndOfDemoDialogue 1.asset using Guid(fdecc96767a8d4871872142856ca482d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8215b7ff7a07f4da1ed8adf97a1ccbb7') in 0.005870 seconds 
-  Import took 0.015656 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 19.329071 seconds.
-  path: Assets/Scripts/XNode/Dialogues/EndSceneDialogue/PortugeseBrasilianEndOfDemoDialogue 1.asset
-  artifactKey: Guid(fdecc96767a8d4871872142856ca482d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/XNode/Dialogues/EndSceneDialogue/PortugeseBrasilianEndOfDemoDialogue 1.asset using Guid(fdecc96767a8d4871872142856ca482d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b54cdf64fd32a62039632b60ca44714e') in 0.010056 seconds 
-  Import took 0.020225 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.096127 seconds.
-  path: Assets/Scripts/XNode/Dialogues/EndSceneDialogue/PortugeseBrasilianEndOfDemoDialogue 1.asset
-  artifactKey: Guid(fdecc96767a8d4871872142856ca482d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/XNode/Dialogues/EndSceneDialogue/PortugeseBrasilianEndOfDemoDialogue 1.asset using Guid(fdecc96767a8d4871872142856ca482d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b27a537350eca7654bce94aa9dc4a8c9') in 0.006165 seconds 
-  Import took 0.016119 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.398493 seconds.
-  path: Assets/Scripts/XNode/Dialogues/EndSceneDialogue/PortugeseBrasilianEndOfDemoDialogue 1.asset
-  artifactKey: Guid(fdecc96767a8d4871872142856ca482d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/XNode/Dialogues/EndSceneDialogue/PortugeseBrasilianEndOfDemoDialogue 1.asset using Guid(fdecc96767a8d4871872142856ca482d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '117923e24f995bcc0cae88af31753096') in 0.007099 seconds 
-  Import took 0.016953 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.432353 seconds.
-  path: Assets/Scripts/XNode/Dialogues/EndSceneDialogue/PortugeseBrasilianEndOfDemoDialogue 1.asset
-  artifactKey: Guid(fdecc96767a8d4871872142856ca482d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/XNode/Dialogues/EndSceneDialogue/PortugeseBrasilianEndOfDemoDialogue 1.asset using Guid(fdecc96767a8d4871872142856ca482d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a0892d0a6a74d6f047243fda8deff3e') in 0.006567 seconds 
-  Import took 0.016983 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.264315 seconds.
-  path: Assets/Scripts/XNode/Dialogues/EndSceneDialogue/PortugeseBrasilianEndOfDemoDialogue 1.asset
-  artifactKey: Guid(fdecc96767a8d4871872142856ca482d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/XNode/Dialogues/EndSceneDialogue/PortugeseBrasilianEndOfDemoDialogue 1.asset using Guid(fdecc96767a8d4871872142856ca482d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dbccf5b241bf3e2aa285612e79825df') in 0.006699 seconds 
-  Import took 0.015454 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.688965 seconds.
-  path: Assets/Scripts/XNode/Dialogues/EndSceneDialogue/PortugeseBrasilianEndOfDemoDialogue 1.asset
-  artifactKey: Guid(fdecc96767a8d4871872142856ca482d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/XNode/Dialogues/EndSceneDialogue/PortugeseBrasilianEndOfDemoDialogue 1.asset using Guid(fdecc96767a8d4871872142856ca482d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '034a56ab6e71ae3fbb8d00ac01ccdfcb') in 0.008230 seconds 
-  Import took 0.019074 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.680029 seconds.
-  path: Assets/Scripts/XNode/Dialogues/EndSceneDialogue/EndOfDemoDialogue 1.asset
-  artifactKey: Guid(8614347ad30cd45cb8821a3e617ff05c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/XNode/Dialogues/EndSceneDialogue/EndOfDemoDialogue 1.asset using Guid(8614347ad30cd45cb8821a3e617ff05c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6300dcb881b2f8a3b5bcc7322111aaa') in 0.005583 seconds 
-  Import took 0.015465 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.696387 seconds.
-  path: Assets/Scripts/XNode/Dialogues/EndSceneDialogue/KoreanEndOfDemoDialogue 1.asset
-  artifactKey: Guid(8614347ad30cd45cb8821a3e617ff05c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/XNode/Dialogues/EndSceneDialogue/KoreanEndOfDemoDialogue 1.asset using Guid(8614347ad30cd45cb8821a3e617ff05c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ab2947ac6e3ce8db17e142f149f660b') in 0.007072 seconds 
-  Import took 0.017153 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 30.493927 seconds.
-  path: Assets/Scripts/XNode/Dialogues/EndSceneDialogue/KoreanEndOfDemoDialogue 1.asset
-  artifactKey: Guid(8614347ad30cd45cb8821a3e617ff05c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/XNode/Dialogues/EndSceneDialogue/KoreanEndOfDemoDialogue 1.asset using Guid(8614347ad30cd45cb8821a3e617ff05c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1629a8966bfa430300fe8032fa82a65') in 0.010462 seconds 
-  Import took 0.024525 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.524612 seconds.
-  path: Assets/Scripts/XNode/Dialogues/EndSceneDialogue/KoreanEndOfDemoDialogue 1.asset
-  artifactKey: Guid(8614347ad30cd45cb8821a3e617ff05c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/XNode/Dialogues/EndSceneDialogue/KoreanEndOfDemoDialogue 1.asset using Guid(8614347ad30cd45cb8821a3e617ff05c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '623e3dcaf561774cfce15302dd24da32') in 0.005774 seconds 
-  Import took 0.016840 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.776738 seconds.
-  path: Assets/Scripts/XNode/Dialogues/EndSceneDialogue/KoreanEndOfDemoDialogue 1.asset
-  artifactKey: Guid(8614347ad30cd45cb8821a3e617ff05c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/XNode/Dialogues/EndSceneDialogue/KoreanEndOfDemoDialogue 1.asset using Guid(8614347ad30cd45cb8821a3e617ff05c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87281d45989ad0163e46750952dada5c') in 0.007348 seconds 
-  Import took 0.016426 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.772639 seconds.
-  path: Assets/Scripts/XNode/Dialogues/EndSceneDialogue/KoreanEndOfDemoDialogue 1.asset
-  artifactKey: Guid(8614347ad30cd45cb8821a3e617ff05c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/XNode/Dialogues/EndSceneDialogue/KoreanEndOfDemoDialogue 1.asset using Guid(8614347ad30cd45cb8821a3e617ff05c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f96676f59761bce9add27969795c067b') in 0.006602 seconds 
-  Import took 0.018086 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.008146 seconds.
-  path: Assets/Scripts/XNode/Dialogues/EndSceneDialogue/KoreanEndOfDemoDialogue 1.asset
-  artifactKey: Guid(8614347ad30cd45cb8821a3e617ff05c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/XNode/Dialogues/EndSceneDialogue/KoreanEndOfDemoDialogue 1.asset using Guid(8614347ad30cd45cb8821a3e617ff05c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd9e00863d7073287d070ceb9915dc46') in 0.006474 seconds 
-  Import took 0.015774 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.564722 seconds.
-  path: Assets/Scripts/XNode/Dialogues/EndSceneDialogue/KoreanEndOfDemoDialogue 1.asset
-  artifactKey: Guid(8614347ad30cd45cb8821a3e617ff05c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/XNode/Dialogues/EndSceneDialogue/KoreanEndOfDemoDialogue 1.asset using Guid(8614347ad30cd45cb8821a3e617ff05c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a88eeff6dc158c000720484d00a9cd33') in 0.006691 seconds 
-  Import took 0.017242 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.717872 seconds.
-  path: Assets/Scripts/XNode/Dialogues/EndSceneDialogue/EndOfDemoDialogue 1.asset
-  artifactKey: Guid(c7793545982dc4a04856e5ca463dff45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/XNode/Dialogues/EndSceneDialogue/EndOfDemoDialogue 1.asset using Guid(c7793545982dc4a04856e5ca463dff45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c89ee3af952d282d62a0be8fea911164') in 0.006664 seconds 
-  Import took 0.017344 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.159224 seconds.
-  path: Assets/Scripts/XNode/Dialogues/EndSceneDialogue/IndonesianEndOfDemoDialogue 1.asset
-  artifactKey: Guid(c7793545982dc4a04856e5ca463dff45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/XNode/Dialogues/EndSceneDialogue/IndonesianEndOfDemoDialogue 1.asset using Guid(c7793545982dc4a04856e5ca463dff45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '190d578a296e705c242738f5674719bd') in 0.007793 seconds 
-  Import took 0.017098 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.885124 seconds.
-  path: Assets/Scripts/XNode/Dialogues/EndSceneDialogue/IndonesianEndOfDemoDialogue 1.asset
-  artifactKey: Guid(c7793545982dc4a04856e5ca463dff45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/XNode/Dialogues/EndSceneDialogue/IndonesianEndOfDemoDialogue 1.asset using Guid(c7793545982dc4a04856e5ca463dff45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33ced909271e8eddf0d2ac59f763e384') in 0.006707 seconds 
-  Import took 0.018044 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.678982 seconds.
-  path: Assets/Scripts/XNode/Dialogues/EndSceneDialogue/IndonesianEndOfDemoDialogue 1.asset
-  artifactKey: Guid(c7793545982dc4a04856e5ca463dff45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/XNode/Dialogues/EndSceneDialogue/IndonesianEndOfDemoDialogue 1.asset using Guid(c7793545982dc4a04856e5ca463dff45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e1674ee52136cbaca3cdf74b49e44f1') in 0.006249 seconds 
-  Import took 0.016416 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.009784 seconds.
-  path: Assets/Scripts/XNode/Dialogues/EndSceneDialogue/IndonesianEndOfDemoDialogue 1.asset
-  artifactKey: Guid(c7793545982dc4a04856e5ca463dff45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/XNode/Dialogues/EndSceneDialogue/IndonesianEndOfDemoDialogue 1.asset using Guid(c7793545982dc4a04856e5ca463dff45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b00ef4dada4e3e0504be8085684bff0') in 0.006741 seconds 
-  Import took 0.016296 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.503251 seconds.
-  path: Assets/Scripts/XNode/Dialogues/EndSceneDialogue/IndonesianEndOfDemoDialogue 1.asset
-  artifactKey: Guid(c7793545982dc4a04856e5ca463dff45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/XNode/Dialogues/EndSceneDialogue/IndonesianEndOfDemoDialogue 1.asset using Guid(c7793545982dc4a04856e5ca463dff45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '339e583dc4676b5368b263e6c3ec259c') in 0.005861 seconds 
-  Import took 0.014945 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.456586 seconds.
-  path: Assets/Scripts/XNode/Dialogues/EndSceneDialogue/IndonesianEndOfDemoDialogue 1.asset
-  artifactKey: Guid(c7793545982dc4a04856e5ca463dff45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/XNode/Dialogues/EndSceneDialogue/IndonesianEndOfDemoDialogue 1.asset using Guid(c7793545982dc4a04856e5ca463dff45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c65fca48145026032e2dad98fd9ec49') in 0.005956 seconds 
-  Import took 0.016530 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.851784 seconds.
-  path: Assets/Scripts/XNode/Dialogues/EndSceneDialogue/IndonesianEndOfDemoDialogue 1.asset
-  artifactKey: Guid(c7793545982dc4a04856e5ca463dff45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/XNode/Dialogues/EndSceneDialogue/IndonesianEndOfDemoDialogue 1.asset using Guid(c7793545982dc4a04856e5ca463dff45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ab8a34b1c8366d2aafaa0d721c292c8') in 0.006731 seconds 
-  Import took 0.017570 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.829106 seconds.
-  path: Assets/Scripts/XNode/Dialogues/EndSceneDialogue/EndOfDemoDialogue 1.asset
-  artifactKey: Guid(280761735c3a24aabb949a60de40ee48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/XNode/Dialogues/EndSceneDialogue/EndOfDemoDialogue 1.asset using Guid(280761735c3a24aabb949a60de40ee48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb0f1e2bd0bbb6a565992825f5f2f0e9') in 0.006864 seconds 
-  Import took 0.016916 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.830532 seconds.
-  path: Assets/Scripts/XNode/Dialogues/EndSceneDialogue/ChineseEndOfDemoDialogue 1.asset
-  artifactKey: Guid(280761735c3a24aabb949a60de40ee48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/XNode/Dialogues/EndSceneDialogue/ChineseEndOfDemoDialogue 1.asset using Guid(280761735c3a24aabb949a60de40ee48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dcd889b342053e31e79ef7dcdc1a2d0') in 0.007704 seconds 
-  Import took 0.017476 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 26.479843 seconds.
-  path: Assets/Scripts/XNode/Dialogues/EndSceneDialogue/ChineseEndOfDemoDialogue 1.asset
-  artifactKey: Guid(280761735c3a24aabb949a60de40ee48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/XNode/Dialogues/EndSceneDialogue/ChineseEndOfDemoDialogue 1.asset using Guid(280761735c3a24aabb949a60de40ee48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a11fa2664ac981f5984a65c87747a3f') in 0.006618 seconds 
-  Import took 0.015657 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.440290 seconds.
-  path: Assets/Scripts/XNode/Dialogues/EndSceneDialogue/ChineseEndOfDemoDialogue 1.asset
-  artifactKey: Guid(280761735c3a24aabb949a60de40ee48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/XNode/Dialogues/EndSceneDialogue/ChineseEndOfDemoDialogue 1.asset using Guid(280761735c3a24aabb949a60de40ee48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e937c88c80f1c23cf9798d1936ef283') in 0.005635 seconds 
-  Import took 0.015557 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.892329 seconds.
-  path: Assets/Scripts/XNode/Dialogues/EndSceneDialogue/ChineseEndOfDemoDialogue 1.asset
-  artifactKey: Guid(280761735c3a24aabb949a60de40ee48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/XNode/Dialogues/EndSceneDialogue/ChineseEndOfDemoDialogue 1.asset using Guid(280761735c3a24aabb949a60de40ee48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bee03d07a5dcd19d9049423a458761d0') in 0.006682 seconds 
-  Import took 0.016557 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.836736 seconds.
-  path: Assets/Scripts/XNode/Dialogues/EndSceneDialogue/ChineseEndOfDemoDialogue 1.asset
-  artifactKey: Guid(280761735c3a24aabb949a60de40ee48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/XNode/Dialogues/EndSceneDialogue/ChineseEndOfDemoDialogue 1.asset using Guid(280761735c3a24aabb949a60de40ee48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f804aabe0253c62ed7e025412040101') in 0.006317 seconds 
-  Import took 0.015486 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.221657 seconds.
-  path: Assets/Scripts/XNode/Dialogues/EndSceneDialogue/ChineseEndOfDemoDialogue 1.asset
-  artifactKey: Guid(280761735c3a24aabb949a60de40ee48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/XNode/Dialogues/EndSceneDialogue/ChineseEndOfDemoDialogue 1.asset using Guid(280761735c3a24aabb949a60de40ee48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c14bf568c98fee4ed0105987211c511') in 0.005775 seconds 
-  Import took 0.016085 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.513331 seconds.
-  path: Assets/Scripts/XNode/Dialogues/EndSceneDialogue/ChineseEndOfDemoDialogue 1.asset
-  artifactKey: Guid(280761735c3a24aabb949a60de40ee48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/XNode/Dialogues/EndSceneDialogue/ChineseEndOfDemoDialogue 1.asset using Guid(280761735c3a24aabb949a60de40ee48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '015a4d3bc1126a1d614a5974569e3678') in 0.006581 seconds 
-  Import took 0.016608 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.079765 seconds.
-  path: Assets/Scripts/XNode/Dialogues/EndSceneDialogue/EndOfDemoDialogue 1.asset
-  artifactKey: Guid(5ce90ce7748344337890be801ec257ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/XNode/Dialogues/EndSceneDialogue/EndOfDemoDialogue 1.asset using Guid(5ce90ce7748344337890be801ec257ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cc48efae8f2795e8c8c94a9c21b3507') in 0.006561 seconds 
-  Import took 0.017033 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.376612 seconds.
-  path: Assets/Scripts/XNode/Dialogues/EndSceneDialogue/ThaiEndOfDemoDialogue 1.asset
-  artifactKey: Guid(5ce90ce7748344337890be801ec257ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/XNode/Dialogues/EndSceneDialogue/ThaiEndOfDemoDialogue 1.asset using Guid(5ce90ce7748344337890be801ec257ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51555184a48ce205d44a18560632b5c2') in 0.007138 seconds 
-  Import took 0.017511 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 45.690832 seconds.
-  path: Assets/Scripts/XNode/Dialogues/EndSceneDialogue/ThaiEndOfDemoDialogue 1.asset
-  artifactKey: Guid(5ce90ce7748344337890be801ec257ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/XNode/Dialogues/EndSceneDialogue/ThaiEndOfDemoDialogue 1.asset using Guid(5ce90ce7748344337890be801ec257ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '523ffaf0551df0de6daf9703531cebe4') in 0.006482 seconds 
-  Import took 0.015793 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.257416 seconds.
-  path: Assets/Scripts/XNode/Dialogues/EndSceneDialogue/ThaiEndOfDemoDialogue 1.asset
-  artifactKey: Guid(5ce90ce7748344337890be801ec257ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/XNode/Dialogues/EndSceneDialogue/ThaiEndOfDemoDialogue 1.asset using Guid(5ce90ce7748344337890be801ec257ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7061c9a2de8bde76a76526f72796cf7a') in 0.004781 seconds 
-  Import took 0.013940 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.067311 seconds.
-  path: Assets/Scripts/XNode/Dialogues/EndSceneDialogue/ThaiEndOfDemoDialogue 1.asset
-  artifactKey: Guid(5ce90ce7748344337890be801ec257ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/XNode/Dialogues/EndSceneDialogue/ThaiEndOfDemoDialogue 1.asset using Guid(5ce90ce7748344337890be801ec257ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19c9d7e8af7ec1067e21ff1393e63533') in 0.005943 seconds 
-  Import took 0.016056 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.763962 seconds.
-  path: Assets/Scripts/XNode/Dialogues/EndSceneDialogue/ThaiEndOfDemoDialogue 1.asset
-  artifactKey: Guid(5ce90ce7748344337890be801ec257ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/XNode/Dialogues/EndSceneDialogue/ThaiEndOfDemoDialogue 1.asset using Guid(5ce90ce7748344337890be801ec257ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57b57bebdcadc7e0769211edff46ad85') in 0.006255 seconds 
-  Import took 0.016714 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.659823 seconds.
-  path: Assets/Scripts/XNode/Dialogues/EndSceneDialogue/ThaiEndOfDemoDialogue 1.asset
-  artifactKey: Guid(5ce90ce7748344337890be801ec257ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/XNode/Dialogues/EndSceneDialogue/ThaiEndOfDemoDialogue 1.asset using Guid(5ce90ce7748344337890be801ec257ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eb67795acdaf99756fea6ec274a2eb8') in 0.006300 seconds 
-  Import took 0.016353 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.175314 seconds.
-  path: Assets/Scripts/XNode/Dialogues/EndSceneDialogue/ThaiEndOfDemoDialogue 1.asset
-  artifactKey: Guid(5ce90ce7748344337890be801ec257ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/XNode/Dialogues/EndSceneDialogue/ThaiEndOfDemoDialogue 1.asset using Guid(5ce90ce7748344337890be801ec257ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c787a64f2422b371264cd81e8584f7b6') in 0.007828 seconds 
-  Import took 0.018803 seconds .
+  path: Assets/TextMesh Pro/Fonts/NotoSans-Bold SDF.asset
+  artifactKey: Guid(4bc31293e515843eebe0a6f6a47452bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/NotoSans-Bold SDF.asset using Guid(4bc31293e515843eebe0a6f6a47452bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3f40033efdcb466e06a719b8ac40139') in 1.222554 seconds 
+  Import took 1.239325 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005706 seconds.
+Registered in 0.014181 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.32 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.31 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-2023-02-15 23:21:23.024 Unity[29252:1365520] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7fb3ebd56920 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2023-02-18 13:11:47.734 Unity[34022:1617943] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7fa1bfc754e0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
   at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in /Users/eldar/MyUnityGames/projectA/projectA/Assets/xNode-1.8.0/Scripts/Editor/NodeEditorAssetModProcessor.cs:55 
   at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
@@ -640,129 +192,30 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Use
 (Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 158)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  2.799 seconds
+- Completed reload, in  2.378 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2800ms)
-		BeginReloadAssembly (209ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (124ms)
-		EndReloadAssembly (2517ms)
-			LoadAssemblies (99ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (655ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (113ms)
-			SetupLoadedEditorAssemblies (1367ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (186ms)
-				ProcessInitializeOnLoadAttributes (970ms)
-				ProcessInitializeOnLoadMethodAttributes (203ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (19ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.30 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5062 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 371.7 MB.
-System memory in use after: 372.1 MB.
-
-Unloading 88 unused Assets to reduce memory usage. Loaded Objects now: 5755.
-Total: 8.972740 ms (FindLiveObjects: 0.603385 ms CreateObjectMapping: 0.315980 ms MarkObjects: 7.985383 ms  DeleteObjects: 0.066683 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 874.745803 seconds.
-  path: Assets/TextMesh Pro/Fonts/beer-money12 SDF.asset
-  artifactKey: Guid(38539f38a8d7c490e94b7c51933de4c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Fonts/beer-money12 SDF.asset using Guid(38539f38a8d7c490e94b7c51933de4c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa8ae8a86e7af69336a4103d31386333') in 0.298584 seconds 
-  Import took 0.309118 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/TextMesh Pro/Fonts/cheshirskiy-cat-roman SDF 1.asset
-  artifactKey: Guid(eed5dc88257784bd7a82974691604d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Fonts/cheshirskiy-cat-roman SDF 1.asset using Guid(eed5dc88257784bd7a82974691604d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '138991999b9d0ddc1f26581a3eaea69b') in 0.038016 seconds 
-  Import took 0.046545 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.504993 seconds.
-  path: Assets/TextMesh Pro/Fonts/NotoSans-Bold.ttf
-  artifactKey: Guid(55a4df7d372454eecb2a9b8ae4803428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Fonts/NotoSans-Bold.ttf using Guid(55a4df7d372454eecb2a9b8ae4803428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50dd1a9465c6419c179185094cc175a3') in 1.394392 seconds 
-  Import took 1.408838 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005528 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.45 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-2023-02-15 23:34:14.710 Unity[29252:1365520] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7fb3ee60d950 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in /Users/eldar/MyUnityGames/projectA/projectA/Assets/xNode-1.8.0/Scripts/Editor/NodeEditorAssetModProcessor.cs:55 
-  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
-  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:154 
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:158)
-
-(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 158)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.173 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2174ms)
-		BeginReloadAssembly (175ms)
+	ReloadAssembly (2379ms)
+		BeginReloadAssembly (202ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (97ms)
-		EndReloadAssembly (1935ms)
-			LoadAssemblies (89ms)
+			CreateAndSetChildDomain (104ms)
+		EndReloadAssembly (2115ms)
+			LoadAssemblies (164ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (495ms)
+			SetupTypeCache (507ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (64ms)
-			SetupLoadedEditorAssemblies (1038ms)
+			RebuildScriptCaches (75ms)
+			SetupLoadedEditorAssemblies (1121ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (168ms)
-				ProcessInitializeOnLoadAttributes (711ms)
-				ProcessInitializeOnLoadMethodAttributes (150ms)
-				AfterProcessingInitializeOnLoad (1ms)
+				BeforeProcessingInitializeOnLoad (170ms)
+				ProcessInitializeOnLoadAttributes (784ms)
+				ProcessInitializeOnLoadMethodAttributes (157ms)
+				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (20ms)
@@ -770,94 +223,11 @@ Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 1.49 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 5062 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 379.5 MB.
-System memory in use after: 380.0 MB.
+System memory in use before: 375.0 MB.
+System memory in use after: 375.5 MB.
 
-Unloading 87 unused Assets to reduce memory usage. Loaded Objects now: 5839.
-Total: 8.909988 ms (FindLiveObjects: 0.518612 ms CreateObjectMapping: 0.312679 ms MarkObjects: 8.024088 ms  DeleteObjects: 0.053607 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 584.794711 seconds.
-  path: Assets/TextMesh Pro/Fonts/NotoSans-Bold SDF.asset
-  artifactKey: Guid(4bc31293e515843eebe0a6f6a47452bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Fonts/NotoSans-Bold SDF.asset using Guid(4bc31293e515843eebe0a6f6a47452bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '220e7a44fd7044f31fd4ee3e2d25b6c9') in 0.194668 seconds 
-  Import took 0.204712 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008086 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.43 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-2023-02-15 23:36:49.485 Unity[29252:1365520] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7fb3ee212220 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in /Users/eldar/MyUnityGames/projectA/projectA/Assets/xNode-1.8.0/Scripts/Editor/NodeEditorAssetModProcessor.cs:55 
-  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
-  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:154 
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:158)
-
-(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 158)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.752 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2753ms)
-		BeginReloadAssembly (216ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (126ms)
-		EndReloadAssembly (2441ms)
-			LoadAssemblies (128ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (587ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (73ms)
-			SetupLoadedEditorAssemblies (1392ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (195ms)
-				ProcessInitializeOnLoadAttributes (1007ms)
-				ProcessInitializeOnLoadMethodAttributes (180ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (24ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.64 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5062 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 380.1 MB.
-System memory in use after: 380.5 MB.
-
-Unloading 87 unused Assets to reduce memory usage. Loaded Objects now: 5878.
-Total: 9.719217 ms (FindLiveObjects: 0.561821 ms CreateObjectMapping: 0.338608 ms MarkObjects: 8.751221 ms  DeleteObjects: 0.066361 ms)
+Unloading 88 unused Assets to reduce memory usage. Loaded Objects now: 5835.
+Total: 9.007175 ms (FindLiveObjects: 0.543890 ms CreateObjectMapping: 0.349249 ms MarkObjects: 8.062993 ms  DeleteObjects: 0.049962 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -872,255 +242,14 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006078 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.51 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-2023-02-15 23:38:54.287 Unity[29252:1365520] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7fb3ed07cad0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in /Users/eldar/MyUnityGames/projectA/projectA/Assets/xNode-1.8.0/Scripts/Editor/NodeEditorAssetModProcessor.cs:55 
-  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
-  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:154 
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:158)
-
-(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 158)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.507 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2507ms)
-		BeginReloadAssembly (166ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (101ms)
-		EndReloadAssembly (2262ms)
-			LoadAssemblies (125ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (531ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (88ms)
-			SetupLoadedEditorAssemblies (1236ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (181ms)
-				ProcessInitializeOnLoadAttributes (881ms)
-				ProcessInitializeOnLoadMethodAttributes (166ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (22ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.59 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5062 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 380.4 MB.
-System memory in use after: 380.9 MB.
-
-Unloading 87 unused Assets to reduce memory usage. Loaded Objects now: 5880.
-Total: 8.358433 ms (FindLiveObjects: 0.531902 ms CreateObjectMapping: 0.293867 ms MarkObjects: 7.477733 ms  DeleteObjects: 0.053751 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006838 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.69 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-2023-02-15 23:39:01.886 Unity[29252:1365520] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7fb3ed0ad640 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in /Users/eldar/MyUnityGames/projectA/projectA/Assets/xNode-1.8.0/Scripts/Editor/NodeEditorAssetModProcessor.cs:55 
-  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
-  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:154 
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:158)
-
-(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 158)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.592 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2592ms)
-		BeginReloadAssembly (219ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (128ms)
-		EndReloadAssembly (2295ms)
-			LoadAssemblies (115ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (688ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (79ms)
-			SetupLoadedEditorAssemblies (1146ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (197ms)
-				ProcessInitializeOnLoadAttributes (778ms)
-				ProcessInitializeOnLoadMethodAttributes (161ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (20ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.29 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5062 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 380.6 MB.
-System memory in use after: 381.0 MB.
-
-Unloading 87 unused Assets to reduce memory usage. Loaded Objects now: 5882.
-Total: 6.673929 ms (FindLiveObjects: 0.460496 ms CreateObjectMapping: 0.251803 ms MarkObjects: 5.922197 ms  DeleteObjects: 0.038654 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004306 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.31 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-2023-02-15 23:40:09.964 Unity[29252:1365520] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7fb3ee57d680 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in /Users/eldar/MyUnityGames/projectA/projectA/Assets/xNode-1.8.0/Scripts/Editor/NodeEditorAssetModProcessor.cs:55 
-  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
-  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:154 
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:158)
-
-(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 158)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.246 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2260ms)
-		BeginReloadAssembly (173ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (101ms)
-		EndReloadAssembly (2021ms)
-			LoadAssemblies (89ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (532ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (65ms)
-			SetupLoadedEditorAssemblies (1105ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (173ms)
-				ProcessInitializeOnLoadAttributes (765ms)
-				ProcessInitializeOnLoadMethodAttributes (159ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (19ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.34 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5062 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 381.1 MB.
-System memory in use after: 381.6 MB.
-
-Unloading 87 unused Assets to reduce memory usage. Loaded Objects now: 5884.
-Total: 7.680265 ms (FindLiveObjects: 0.501955 ms CreateObjectMapping: 0.270724 ms MarkObjects: 6.860727 ms  DeleteObjects: 0.046013 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 336.209334 seconds.
-  path: Assets/TextMesh Pro/Fonts/NotoSans-Bold SDF.asset
-  artifactKey: Guid(4bc31293e515843eebe0a6f6a47452bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Fonts/NotoSans-Bold SDF.asset using Guid(4bc31293e515843eebe0a6f6a47452bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '590816b27f521ec58ac294263a4331af') in 0.174774 seconds 
-  Import took 0.183201 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000361 seconds.
-  path: Assets/TextMesh Pro/Fonts/cheshirskiy-cat-roman SDF 1.asset
-  artifactKey: Guid(eed5dc88257784bd7a82974691604d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Fonts/cheshirskiy-cat-roman SDF 1.asset using Guid(eed5dc88257784bd7a82974691604d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fce311c6cdd1733ef3998edda73b8406') in 0.027790 seconds 
-  Import took 0.035353 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003645 seconds.
+Registered in 0.003515 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Refreshing native plugins compatible for Editor in 1.35 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-2023-02-15 23:40:41.687 Unity[29252:1365520] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7fb3ee7a15a0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2023-02-18 13:12:47.601 Unity[34022:1617943] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7fa1bfc77f00 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
   at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in /Users/eldar/MyUnityGames/projectA/projectA/Assets/xNode-1.8.0/Scripts/Editor/NodeEditorAssetModProcessor.cs:55 
   at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
@@ -1138,117 +267,42 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Use
 (Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 158)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  2.173 seconds
+- Completed reload, in  2.244 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2173ms)
-		BeginReloadAssembly (189ms)
+	ReloadAssembly (2244ms)
+		BeginReloadAssembly (179ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (112ms)
-		EndReloadAssembly (1910ms)
-			LoadAssemblies (103ms)
+			CreateAndSetChildDomain (105ms)
+		EndReloadAssembly (1992ms)
+			LoadAssemblies (93ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (482ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (61ms)
-			SetupLoadedEditorAssemblies (1054ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (170ms)
-				ProcessInitializeOnLoadAttributes (737ms)
-				ProcessInitializeOnLoadMethodAttributes (139ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (20ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.29 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5062 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 381.7 MB.
-System memory in use after: 382.1 MB.
-
-Unloading 87 unused Assets to reduce memory usage. Loaded Objects now: 5923.
-Total: 7.665106 ms (FindLiveObjects: 0.511177 ms CreateObjectMapping: 0.227463 ms MarkObjects: 6.787613 ms  DeleteObjects: 0.138019 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007343 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.40 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-2023-02-15 23:41:01.987 Unity[29252:1365520] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7fb3e86da260 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in /Users/eldar/MyUnityGames/projectA/projectA/Assets/xNode-1.8.0/Scripts/Editor/NodeEditorAssetModProcessor.cs:55 
-  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
-  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:154 
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:158)
-
-(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 158)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.368 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2369ms)
-		BeginReloadAssembly (222ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (138ms)
-		EndReloadAssembly (2069ms)
-			LoadAssemblies (121ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (486ms)
+			SetupTypeCache (503ms)
 			ReleaseScriptCaches (2ms)
 			RebuildScriptCaches (65ms)
-			SetupLoadedEditorAssemblies (1175ms)
+			SetupLoadedEditorAssemblies (1112ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (175ms)
-				ProcessInitializeOnLoadAttributes (842ms)
-				ProcessInitializeOnLoadMethodAttributes (149ms)
+				BeforeProcessingInitializeOnLoad (183ms)
+				ProcessInitializeOnLoadAttributes (779ms)
+				ProcessInitializeOnLoadMethodAttributes (141ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (21ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.31 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.38 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 5062 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 382.0 MB.
-System memory in use after: 382.4 MB.
+System memory in use before: 375.3 MB.
+System memory in use after: 375.7 MB.
 
-Unloading 87 unused Assets to reduce memory usage. Loaded Objects now: 5925.
-Total: 9.694522 ms (FindLiveObjects: 0.562344 ms CreateObjectMapping: 0.303399 ms MarkObjects: 8.760590 ms  DeleteObjects: 0.067291 ms)
+Unloading 87 unused Assets to reduce memory usage. Loaded Objects now: 5837.
+Total: 7.978920 ms (FindLiveObjects: 0.509480 ms CreateObjectMapping: 0.278373 ms MarkObjects: 7.139493 ms  DeleteObjects: 0.050601 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -1263,14 +317,14 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.017452 seconds.
+Registered in 0.015029 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.28 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.27 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-2023-02-15 23:47:03.586 Unity[29252:1365520] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7fb3ebdfc3d0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2023-02-18 13:32:38.746 Unity[34022:1617943] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7fa1bbc91980 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
   at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in /Users/eldar/MyUnityGames/projectA/projectA/Assets/xNode-1.8.0/Scripts/Editor/NodeEditorAssetModProcessor.cs:55 
   at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
@@ -1288,42 +342,42 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Use
 (Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 158)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  2.392 seconds
+- Completed reload, in  2.420 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2392ms)
-		BeginReloadAssembly (188ms)
+	ReloadAssembly (2421ms)
+		BeginReloadAssembly (199ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (109ms)
-		EndReloadAssembly (2140ms)
-			LoadAssemblies (175ms)
+			CreateAndSetChildDomain (119ms)
+		EndReloadAssembly (2148ms)
+			LoadAssemblies (189ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (473ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (68ms)
-			SetupLoadedEditorAssemblies (1184ms)
+			SetupTypeCache (484ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (65ms)
+			SetupLoadedEditorAssemblies (1182ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (168ms)
-				ProcessInitializeOnLoadAttributes (851ms)
-				ProcessInitializeOnLoadMethodAttributes (157ms)
+				BeforeProcessingInitializeOnLoad (193ms)
+				ProcessInitializeOnLoadAttributes (826ms)
+				ProcessInitializeOnLoadMethodAttributes (156ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (21ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.56 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.93 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 5062 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 382.4 MB.
-System memory in use after: 382.8 MB.
+System memory in use before: 376.1 MB.
+System memory in use after: 376.6 MB.
 
-Unloading 87 unused Assets to reduce memory usage. Loaded Objects now: 5927.
-Total: 8.966891 ms (FindLiveObjects: 0.560878 ms CreateObjectMapping: 0.283596 ms MarkObjects: 8.048342 ms  DeleteObjects: 0.072499 ms)
+Unloading 87 unused Assets to reduce memory usage. Loaded Objects now: 5839.
+Total: 7.834120 ms (FindLiveObjects: 0.496784 ms CreateObjectMapping: 0.276872 ms MarkObjects: 7.008355 ms  DeleteObjects: 0.051283 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -1335,3 +389,4 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

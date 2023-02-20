@@ -21806,7 +21806,7 @@ MonoBehaviour:
   _fullscreenText: {fileID: 2071283225}
   _resolutionText: {fileID: 1285248023}
   _globalFont: {fileID: 11400000, guid: 4bc31293e515843eebe0a6f6a47452bf, type: 2}
-  _simpleFont: {fileID: 11400000, guid: eed5dc88257784bd7a82974691604d59, type: 2}
+  _simpleFont: {fileID: 11400000, guid: 38539f38a8d7c490e94b7c51933de4c6, type: 2}
   _changeLanguageEvents:
     m_PersistentCalls:
       m_Calls: []
